@@ -32,7 +32,6 @@ var ks = (function (exports) {
                             .map(function(){
                                 var point = new google.maps.LatLng($(this).attr('lat'), $(this).attr('lon'))
                                 result.bounds.extend(point);
-                                result.points.push({lat: point.B, lon: point.k})
                                 return point;
                               });
 

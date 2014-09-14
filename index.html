@@ -22,6 +22,9 @@
       #runlist { height: 300px; overflow: scroll;}
 
       #buttons {margin-bottom: 6px}
+
+      #images {height: 150px;}
+      #images img {margin-right: 5px;}
     </style>
     <title>TransAmerican Bike Tour</title>
 
@@ -62,14 +65,13 @@
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div id="buttons" class="col-xs-12">
-          <button type="button" class="btn btn-primary btn-lg active" onclick='timer.start(1000);'>Start</button>
+        <div id="buttons" class="col-xs-2">
+          <button type="button" class="btn btn-primary btn-lg active" onclick='timer.start(2000);'>Start</button>
           <button type="button" class="btn btn-primary btn-lg active" onclick='timer.stop();'>Stop</button>
         </div>
+        <div id="images" class="col-xs-10"></div>
       </div>
-      <div class="row">
-        <div id="images" class="col-xs-12"></div>
-      </div>
+
       <div class="row">
         <div class="col-md-2 hidden-xs">
           <ul id='runlist' class="list-group"></ul>
@@ -90,7 +92,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoDP5xXvGAGE1ky8NIdDiA0AA3sIUuqys"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6BtvgtpdgJPlBJfawFCgsz8NY0xOeBtE"></script>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -123,20 +125,46 @@
 
       });
 
-      // var instagram = new ks.Photo('354fd56bc858463cbb7f7b69ce259283', '504219932')
-      // trip.addEventListener("change", function (data) {
-      //   var getArea = function(){
-      //     return {
-      //       position: { lat: -123.924361667, lon: 46.025258333},
-      //       distance: 200 //miles
-      //     }
-      //   }
-      //   var area = getArea(data);
-      //   instagram.nearby(area.position, area.distance);
-      //   $('images').empty();
-      //   $('images').append();
-      //
-      // });
+      var instagram = new ks.Photo('', '504219932')
+      trip.addEventListener("change", function (data) {
+        var getArea = function(leg){
+          var center = leg.mapData.bounds.getCenter();
+          return {
+            position: { lon: center.B, lat: center.k},
+            distance: .5 //miles
+          }
+        }
+        var area = getArea(data);
+        instagram.nearby(area.position, area.distance).done(function(results) {
+          //merge result sets
+
+          //remove items not in set
+          $('#images').children('img').filter(function(){
+            var id = $(this).data("id");
+            var matches = $.grep(results, function(result) {
+                            return (result.id === id)
+                          });
+
+            return !matches || matches.length <= 0;
+          }).remove();
+
+          $.grep(results, function(result){
+            var matches = $.grep($('#images').children("img"), function(image) {
+                            return $(image).data('id') === result.id;
+                          });
+            return !matches || matches.length <= 0;
+          })
+          .forEach(function (result) {
+            $('<img>')
+            .attr({
+              src: result.images.thumbnail.url,
+              width: result.images.thumbnail.width,
+              height: result.images.thumbnail.height
+            }).data('id', result.id)
+            .addClass("instagram").prependTo($('#images'));
+          });
+        });
+      });
 
       trip.initialize(/(\d_*)+/);
 
