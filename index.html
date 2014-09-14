@@ -26,8 +26,8 @@
     <title>TransAmerican Bike Tour</title>
 
     <!-- Bootstrap -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
 
   </head>
@@ -68,6 +68,9 @@
         </div>
       </div>
       <div class="row">
+        <div id="images" class="col-xs-12"></div>
+      </div>
+      <div class="row">
         <div class="col-md-2 hidden-xs">
           <ul id='runlist' class="list-group"></ul>
         </div>
@@ -95,9 +98,11 @@
     <script type="application/javascript" src="js/trip.js"></script>
     <script type="application/javascript" src="js/map.js"></script>
     <script type="application/javascript" src="js/timer.js"></script>
+    <script type="application/javascript" src="js/instagram.js"></script>
 
     <script type="text/javascript">
-      var trip = new ks.Trip('data/run_manifest.json');
+      ks.webRoot = window.location.href.split("/").slice(0,-1).join("/");
+      var trip = new ks.Trip('/data/run_manifest.json');
       trip.addEventListener("initialize", function(data){
         data.forEach(function(leg, index){
           $("#runlist").append($('<li class="list-group-item">' + leg.label + '</li>').data('file', leg.file).data('index', index));
@@ -116,7 +121,23 @@
 
         $('#runlist').scrollTop(scrollPosition);
 
-      })
+      });
+
+      // var instagram = new ks.Photo('354fd56bc858463cbb7f7b69ce259283', '504219932')
+      // trip.addEventListener("change", function (data) {
+      //   var getArea = function(){
+      //     return {
+      //       position: { lat: -123.924361667, lon: 46.025258333},
+      //       distance: 200 //miles
+      //     }
+      //   }
+      //   var area = getArea(data);
+      //   instagram.nearby(area.position, area.distance);
+      //   $('images').empty();
+      //   $('images').append();
+      //
+      // });
+
       trip.initialize(/(\d_*)+/);
 
 

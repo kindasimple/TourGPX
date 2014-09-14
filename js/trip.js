@@ -23,7 +23,7 @@ var ks = (function (exports) {
       var deferred = $.Deferred();
       $.ajax({
         type: 'GET',
-        url: '/' + file,
+        url: ks.webRoot + '/' + file,
         success: function(gpx) {
           console.log("load new run");
           var result = { bounds : new google.maps.LatLngBounds(), points: [] };
@@ -63,7 +63,7 @@ var ks = (function (exports) {
       }
       return $.ajax({
         type: 'GET',
-        url:  '/' + manifest,
+        url:  ks.webRoot + manifest,
         success: function (trip) {
           console.log("Trip loaded");
           prop.data = $.map(trip,function (leg){
