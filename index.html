@@ -66,7 +66,7 @@
     <div class="container-fluid">
       <div class="row">
         <div id="buttons" class="col-xs-2">
-          <button type="button" class="btn btn-primary btn-lg active" onclick='timer.start(2000);'>Start</button>
+          <button type="button" class="btn btn-primary btn-lg active" onclick='timer.start(5000);'>Start</button>
           <button type="button" class="btn btn-primary btn-lg active" onclick='timer.stop();'>Stop</button>
         </div>
         <div id="images" class="col-xs-10"></div>
@@ -171,7 +171,7 @@
 
       function initialize() {
 
-        new ks.Map("map-canvas", {
+        var mapLeg = new ks.Map("map-canvas", {
           center: new google.maps.LatLng(40, -120),
           zoom: 10
         }).trip(trip);
@@ -180,7 +180,7 @@
           zoom: 5
         }).trip(trip, {bounds: false, center: true});
 
-        timer = new ks.Timer(trip);//.start(1000);
+        timer = new ks.Timer(trip, mapLeg.map);//.start(1000);
 
         //new Map(document.getElementById("map-canvasG"), mapOptions).trip(trip);
 

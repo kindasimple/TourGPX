@@ -95,8 +95,6 @@ var ks = (function (exports) {
       }
     };
 
-    prop
-
     prop.next = function () {
       prop.setActiveIndex((prop.index + 1) % prop.data.length);
     }

@@ -1,17 +1,19 @@
 (function(exports) {
   exports.Map = function(canvasId, mapOptions) {
-    var _trip, _map,
+    var _trip,
     _options = {
       bounds: true,
       route: true,
       center: false
     };
 
+    var self = this;
+
     var initialize = function(){
-      _map = new google.maps.Map(document.getElementById(canvasId), mapOptions);
+      self.map = new google.maps.Map(document.getElementById(canvasId), mapOptions);
     };
 
-    var addListener = function (trip) {
+    var addListener = function (trip, map) {
       _trip.addEventListener("change", function(data) {
 
         var route = new google.maps.Polyline({
@@ -21,14 +23,14 @@
           strokeWeight: 2
         });
         if(_options.route) {
-          route.setMap(_map);
+          route.setMap(map);
         }
 
         if(_options.bounds)
-          _map.fitBounds(data.mapData.bounds);
+          map.fitBounds(data.mapData.bounds);
 
         if(_options.center)
-          _map.setCenter(data.mapData.bounds.getCenter());
+          map.setCenter(data.mapData.bounds.getCenter());
       });
     };
 
@@ -40,7 +42,8 @@
       if(options.hasOwnProperty("center")) _options.center = options.center;
 
       _trip = trip;
-      addListener(trip, _map);
+      addListener(trip, self.map);
+      return this;
     }
 
     initialize();
