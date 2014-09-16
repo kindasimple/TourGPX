@@ -44,8 +44,21 @@
       _trip = trip;
       addListener(trip, self.map);
       return this;
-    }
+    };
 
+    this.dropImagePins = function (images) {
+      if(!images)
+        return;
+      images.forEach(function(image){
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(image.location.latitude, image.location.longitude),
+            draggable: false,
+            map: self.map
+        });
+      });
+    };
+
+    $.extend(this, ks.events);
     initialize();
   };
 } (ks || {}));

@@ -15,8 +15,7 @@ Function.prototype.memoize = function(){
 var ks = (function (exports) {
   exports.Trip = function(manifest){
     var prop = {
-      manifest: manifest,
-      _callbacks : {}
+      manifest: manifest
       };
 
     function getPolyline(file) {
@@ -99,23 +98,7 @@ var ks = (function (exports) {
       prop.setActiveIndex((prop.index + 1) % prop.data.length);
     }
 
-    prop.addEventListener= function(evname,callback) {
-      if (!this._callbacks[evname]) {
-        this._callbacks[evname] = $.Callbacks();
-      }
-      this._callbacks[evname].add(callback);
-    },
-    prop.removeEventListener= function(evname,callback) {
-      if (!this._callbacks[evname]) {
-        return;
-      }
-      this._callbacks[evname].remove(callback);
-    },
-    prop.dispatchEvent= function(evname, data) {
-      if (this._callbacks[evname]) {
-        this._callbacks[evname].fire(data);
-      }
-    };
+    $.extend(prop, ks.events);
 
     return prop;
   };

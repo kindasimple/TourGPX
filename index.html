@@ -96,6 +96,7 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="application/javascript" src="js/events.js"></script>
     <script type="application/javascript" src="lib/jquery.min.js"></script>
     <script type="application/javascript" src="js/trip.js"></script>
     <script type="application/javascript" src="js/map.js"></script>
@@ -125,49 +126,6 @@
 
       });
 
-      var instagram = new ks.Photo('', '504219932')
-      trip.addEventListener("change", function (data) {
-        var getArea = function(leg){
-          var center = leg.mapData.bounds.getCenter();
-          return {
-            position: { lon: center.B, lat: center.k},
-            distance: .5 //miles
-          }
-        }
-        var area = getArea(data);
-        instagram.nearby(area.position, area.distance).done(function(results) {
-          //merge result sets
-
-          //remove items not in set
-          $('#images').children('img').filter(function(){
-            var id = $(this).data("id");
-            var matches = $.grep(results, function(result) {
-                            return (result.id === id)
-                          });
-
-            return !matches || matches.length <= 0;
-          }).remove();
-
-          $.grep(results, function(result){
-            var matches = $.grep($('#images').children("img"), function(image) {
-                            return $(image).data('id') === result.id;
-                          });
-            return !matches || matches.length <= 0;
-          })
-          .forEach(function (result) {
-            $('<img>')
-            .attr({
-              src: result.images.thumbnail.url,
-              width: result.images.thumbnail.width,
-              height: result.images.thumbnail.height
-            }).data('id', result.id)
-            .addClass("instagram").prependTo($('#images'));
-          });
-        });
-      });
-
-      trip.initialize(/(\d_*)+/);
-
 
       function initialize() {
 
@@ -181,11 +139,63 @@
         }).trip(trip, {bounds: false, center: true});
 
         timer = new ks.Timer(trip, mapLeg.map);//.start(1000);
+        mapLeg.addEventListener('images', function(data){
+          mapLeg.dropImagePins(data)
+        });
 
         //new Map(document.getElementById("map-canvasG"), mapOptions).trip(trip);
 
         // new Runs(app.initialize("map-canvas", "40,-140"), "#runlist").source("data/run_manifest.json", /(\d_*)+/)
         //     .done(function(run){ run.cycle(5000); });
+
+
+        var instagram = new ks.Photo('', '504219932', function (data) {
+          mapLeg.dropImagePins(data)
+        });
+
+        trip.addEventListener("change", function (data) {
+          var getArea = function(leg){
+            var center = leg.mapData.bounds.getCenter();
+            return {
+              position: { lon: center.B, lat: center.k},
+              distance: .5 //miles
+            };
+          };
+          var area = getArea(data);
+          instagram.nearby(area.position, area.distance).done(function(results) {
+
+            //merge result sets
+
+            //remove items not in set
+            $('#images').children('img').filter(function(){
+              var id = $(this).data("id");
+              var matches = $.grep(results, function(result) {
+                              return (result.id === id)
+                            });
+
+              return !matches || matches.length <= 0;
+            }).remove();
+
+            $.grep(results, function(result){
+              var matches = $.grep($('#images').children("img"), function(image) {
+                              return $(image).data('id') === result.id;
+                            });
+              return !matches || matches.length <= 0;
+            })
+            .forEach(function (result) {
+              $('<img>')
+              .attr({
+                src: result.images.thumbnail.url,
+                width: result.images.thumbnail.width,
+                height: result.images.thumbnail.height
+              }).data('id', result.id)
+              .addClass("instagram").prependTo($('#images'));
+            });
+          });
+        });
+
+        trip.initialize(/(\d_*)+/);
+
 
       };
 
