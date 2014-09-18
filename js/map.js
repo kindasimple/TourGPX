@@ -4,7 +4,8 @@
     _options = {
       bounds: true,
       route: true,
-      center: false
+      center: false,
+      preload: false
     };
 
     var self = this;
@@ -13,7 +14,7 @@
       self.map = new google.maps.Map(document.getElementById(canvasId), mapOptions);
     };
 
-    var addListener = function (trip, map) {
+    var addListener = function (trip, map, preload) {
       _trip.addEventListener("change", function(data) {
 
         var route = new google.maps.Polyline({
@@ -32,6 +33,14 @@
         if(_options.center)
           map.setCenter(data.mapData.bounds.getCenter());
       });
+
+      if(preload){
+        _trip.addEventListener("initialize", function(data) {
+          _trip.addOneTimeEventListener("change", function(data) {
+            while(trip.next());
+          });
+        });
+      }
     };
 
     this.trip = function (trip, options){
@@ -40,9 +49,10 @@
       if(options.hasOwnProperty("bounds")) _options.bounds = options.bounds;
       if(options.hasOwnProperty("route")) _options.route = options.route;
       if(options.hasOwnProperty("center")) _options.center = options.center;
+      if(options.hasOwnProperty("preload")) _options.preload = options.preload;
 
       _trip = trip;
-      addListener(trip, self.map);
+      addListener(trip, self.map, options.preload);
       return this;
     };
 

@@ -1,0 +1,2936 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.15.11" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2012-09-06T19:08:23Z</time>
+    <bounds maxlat="46.8731300" maxlon="-111.0998400" minlat="44.6589900" minlon="-114.1799200"/>
+  </metadata>
+
+  <wpt lat="46.8727000" lon="-113.9918700">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04010</name>
+    <cmt>Pattee St/Pine St</cmt>
+    <desc>Pattee St/Pine St</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.8731300" lon="-113.9933299">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04040</name>
+    <cmt>Pine St/Higgins Av</cmt>
+    <desc>Pine St/Higgins Av</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.8677400" lon="-113.9967200">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04060</name>
+    <cmt>Cross Clark Fork</cmt>
+    <desc>Cross Clark Fork</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.8410799" lon="-113.9976700">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04090</name>
+    <cmt>Higgins Av/SW Higgins Av</cmt>
+    <desc>Higgins Av/SW Higgins Av</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.8341499" lon="-114.0186399">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J040H0</name>
+    <cmt>SW Higgins Av/39th St</cmt>
+    <desc>SW Higgins Av/39th St</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.8340799" lon="-114.0431000">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J040L0</name>
+    <cmt>39th St/Gharett Av</cmt>
+    <desc>39th St/Gharett Av</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.8303600" lon="-114.0430299">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J040N0</name>
+    <cmt>Gharett Av/Briggs St</cmt>
+    <desc>Gharett Av/Briggs St</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.8303600" lon="-114.0505300">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J040S0</name>
+    <cmt>Briggs St/Miller Creek Rd</cmt>
+    <desc>Briggs St/Miller Creek Rd</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.8324500" lon="-114.0505300">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J040W0</name>
+    <cmt>Miller Cr Rd/US 12 93 Brooks St</cmt>
+    <desc>Miller Cr Rd/US 12 93 Brooks St</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.8087500" lon="-114.0988100">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J040X0</name>
+    <cmt>US 93 bend</cmt>
+    <desc>US 93 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.7568200" lon="-114.0824799">
+    <ele>969.2639771</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J040Z0</name>
+    <cmt>US 93/US 12 (El 3180')</cmt>
+    <desc>US 93/US 12 (El 3180')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.7567799" lon="-114.0838299">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04150</name>
+    <cmt>US 12/Bike path</cmt>
+    <desc>US 12/Bike path</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.6330299" lon="-114.0780600">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J041A0</name>
+    <cmt>Bike path/Conoco</cmt>
+    <desc>Bike path/Conoco</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.5236130" lon="-114.1141740">
+    <time>2010-05-27T19:37:55Z</time>
+    <name>J041D0</name>
+    <cmt>Pass CR 269</cmt>
+    <desc>Pass CR 269</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.4142580" lon="-114.1454860">
+    <time>2012-09-05T19:50:37Z</time>
+    <name>J041G0</name>
+    <cmt>Pass Victor Crossing</cmt>
+    <desc>Pass Victor Crossing</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.3131070" lon="-114.1558910">
+    <time>2012-09-05T19:53:41Z</time>
+    <name>J041NF</name>
+    <cmt>Cross US 93</cmt>
+    <desc>Cross US 93</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.3129970" lon="-114.1555850">
+    <time>2012-09-05T19:55:10Z</time>
+    <name>J041S0</name>
+    <cmt>Cross Woodside Cutoff Rd</cmt>
+    <desc>Cross Woodside Cutoff Rd</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.2778380" lon="-114.1616430">
+    <time>2012-09-05T20:01:39Z</time>
+    <name>J041V8</name>
+    <cmt>Cross Bitterroot River</cmt>
+    <desc>Cross Bitterroot River</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.2744650" lon="-114.1583450">
+    <time>2012-09-05T20:03:32Z</time>
+    <name>J041VC</name>
+    <cmt>bike path/Riverside Cutoff</cmt>
+    <desc>bike path/Riverside Cutoff</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.2745850" lon="-114.1553040">
+    <time>2012-09-05T20:04:30Z</time>
+    <name>J041VG</name>
+    <cmt>Riverside Cutoff Rd/Old Corvalis Rd</cmt>
+    <desc>Riverside Cutoff Rd/Old Corvalis Rd</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.2551290" lon="-114.1553130">
+    <time>2012-09-05T20:05:49Z</time>
+    <name>J041VM</name>
+    <cmt>OldCorvallisRd/FairgroundsRd AdirondacAv</cmt>
+    <desc>OldCorvallisRd/FairgroundsRd AdirondacAv</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.2549330" lon="-114.1581700">
+    <time>2012-09-05T20:08:15Z</time>
+    <name>J041VR</name>
+    <cmt>Adirondac Av Fairgrounds Rd/2nd St</cmt>
+    <desc>Adirondac Av Fairgrounds Rd/2nd St</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.2369430" lon="-114.1557440">
+    <time>2012-09-05T20:09:54Z</time>
+    <name>J041WK</name>
+    <cmt>2nd St/Hope Av</cmt>
+    <desc>2nd St/Hope Av</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.2369400" lon="-114.1546000">
+    <time>2012-09-05T20:24:42Z</time>
+    <name>J041X0</name>
+    <cmt>Hope Av/bike path</cmt>
+    <desc>Hope Av/bike path</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.2064800" lon="-114.1555900">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04210</name>
+    <cmt>bike path (Pass Skalkaho Rd)</cmt>
+    <desc>bike path (Pass Skalkaho Rd)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.1832999" lon="-114.1799200">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04220</name>
+    <cmt>Cross Judd Cr</cmt>
+    <desc>Cross Judd Cr</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.0814200" lon="-114.1704600">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04260</name>
+    <cmt>US 93 (Pass Lake Como Rd)</cmt>
+    <desc>US 93 (Pass Lake Como Rd)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.0346900" lon="-114.1778999">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04270</name>
+    <cmt>US 93 (Pass Old Darby Rd)</cmt>
+    <desc>US 93 (Pass Old Darby Rd)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.9306600" lon="-114.1180800">
+    <ele>1249.6800537</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J042D0</name>
+    <cmt>US 93 (Pass Conner Cutoff El 4100')</cmt>
+    <desc>US 93 (Pass Conner Cutoff El 4100')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.9025300" lon="-114.0712599">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J042F0</name>
+    <cmt>Billy Goat Gulch</cmt>
+    <desc>Billy Goat Gulch</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.8759991" lon="-114.0613808">
+    <time>2009-11-28T17:31:27Z</time>
+    <name>J042G0</name>
+    <cmt>US 93 bend</cmt>
+    <desc>US 93 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.8179700" lon="-113.9581800">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J042N0</name>
+    <cmt>US 93 (Pass FR 436)</cmt>
+    <desc>US 93 (Pass FR 436)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7923899" lon="-113.9495900">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J042Q0</name>
+    <cmt>Camp Creek Inn Rd</cmt>
+    <desc>Camp Creek Inn Rd</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7496499" lon="-113.9411800">
+    <ele>1645.9200439</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J042T0</name>
+    <cmt>Gallogly Spring (El 5400')</cmt>
+    <desc>Gallogly Spring (El 5400')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7320000" lon="-113.9199400">
+    <ele>1798.3199463</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J042U0</name>
+    <cmt>US 93 bend (El 5900')</cmt>
+    <desc>US 93 bend (El 5900')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7148400" lon="-113.9193999">
+    <ele>1889.7600098</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J042V0</name>
+    <cmt>US 93 bend (El 6200')</cmt>
+    <desc>US 93 bend (El 6200')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.6935000" lon="-113.9481299">
+    <ele>2133.6000977</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J042W0</name>
+    <cmt>Lost Trail Pass (El 7000')</cmt>
+    <desc>Lost Trail Pass (El 7000')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.6845899" lon="-113.9331200">
+    <ele>2207.0568848</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J042X0</name>
+    <cmt>Chief Joseph Pass (El 7241')</cmt>
+    <desc>Chief Joseph Pass (El 7241')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.6754699" lon="-113.8815500">
+    <ele>2000.0976563</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J042Z0</name>
+    <cmt>Cross Joseph Cr (El 6562')</cmt>
+    <desc>Cross Joseph Cr (El 6562')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.6599099" lon="-113.8128199">
+    <ele>1950.7199707</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04300</name>
+    <cmt>SR 43 (Pass FR 106 El 6400')</cmt>
+    <desc>SR 43 (Pass FR 106 El 6400')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.6174200" lon="-113.4490299">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04320</name>
+    <cmt>SR 43/CR 278</cmt>
+    <desc>SR 43/CR 278</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.4480400" lon="-113.4572100">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04330</name>
+    <cmt>CR 278 bend</cmt>
+    <desc>CR 278 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3566900" lon="-113.4085400">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04360</name>
+    <cmt>CR 278 bend</cmt>
+    <desc>CR 278 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3179200" lon="-113.3258600">
+    <ele>2042.1600342</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04370</name>
+    <cmt>Harrison Gulch (El 6700')</cmt>
+    <desc>Harrison Gulch (El 6700')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3373100" lon="-113.2595999">
+    <ele>2133.6000977</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04390</name>
+    <cmt>CR 278 bend (El 7000')</cmt>
+    <desc>CR 278 bend (El 7000')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3304500" lon="-113.2411499">
+    <ele>2243.3278809</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043A0</name>
+    <cmt>Big Hole Pass (El 7360')</cmt>
+    <desc>Big Hole Pass (El 7360')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3168700" lon="-113.1704600">
+    <ele>1981.1999512</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043B0</name>
+    <cmt>Cross Ames Cr (El 6500')</cmt>
+    <desc>Cross Ames Cr (El 6500')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2784400" lon="-113.1207099">
+    <ele>1859.2800293</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043C0</name>
+    <cmt>CR 278 (Pass CR 73 El 6100')</cmt>
+    <desc>CR 278 (Pass CR 73 El 6100')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2310600" lon="-113.0820200">
+    <ele>1828.8000488</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043D0</name>
+    <cmt>CR 278 (Pass Taylor Cr Rd El 6000'</cmt>
+    <desc>CR 278 (Pass Taylor Cr Rd El 6000'</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2073700" lon="-113.0139500">
+    <ele>1859.2800293</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043F0</name>
+    <cmt>CR 278 (Pass Bannack Rd El 6100')</cmt>
+    <desc>CR 278 (Pass Bannack Rd El 6100')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2344299" lon="-112.9505000">
+    <ele>2060.4479980</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043H0</name>
+    <cmt>Badger Pass (El 6760')</cmt>
+    <desc>Badger Pass (El 6760')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2223900" lon="-112.8139299">
+    <ele>1706.8800049</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043J0</name>
+    <cmt>CR 278 (Pass Argenta Rd El 5600')</cmt>
+    <desc>CR 278 (Pass Argenta Rd El 5600')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.1793000" lon="-112.6923499">
+    <ele>1584.9599609</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043K0</name>
+    <cmt>CR 278/Frontage Rd (El 5200')</cmt>
+    <desc>CR 278/Frontage Rd (El 5200')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.1815099" lon="-112.6888299">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043M0</name>
+    <cmt>Cross Beaverhead River</cmt>
+    <desc>Cross Beaverhead River</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.1825200" lon="-112.6802100">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043N0</name>
+    <cmt>Over railroad</cmt>
+    <desc>Over railroad</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.1931299" lon="-112.6524200">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043P0</name>
+    <cmt>Frontage road bend</cmt>
+    <desc>Frontage road bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2075399" lon="-112.6413099">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043R0</name>
+    <cmt>E Chapman St bend</cmt>
+    <desc>E Chapman St bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2081399" lon="-112.6420500">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043S0</name>
+    <cmt>E Chapman St/N Atlantic St</cmt>
+    <desc>E Chapman St/N Atlantic St</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2168900" lon="-112.6320499">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J043T0</name>
+    <cmt>N Atlantic St/Helana St</cmt>
+    <desc>N Atlantic St/Helana St</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2189999" lon="-112.6356599">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04400</name>
+    <cmt>Helena St/Montana St</cmt>
+    <desc>Helena St/Montana St</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2284800" lon="-112.6281500">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04430</name>
+    <cmt>I-15 Bus/SR 41</cmt>
+    <desc>I-15 Bus/SR 41</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3724100" lon="-112.4642799">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04440</name>
+    <cmt>Beaverhead/Madison County Line</cmt>
+    <desc>Beaverhead/Madison County Line</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3833499" lon="-112.4531400">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04450</name>
+    <cmt>SR 41 Cross Beaverhead River</cmt>
+    <desc>SR 41 Cross Beaverhead River</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.5442999" lon="-112.3325700">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04460</name>
+    <cmt>Cross Beaverhead River</cmt>
+    <desc>Cross Beaverhead River</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.5443400" lon="-112.3311300">
+    <ele>1432.5600586</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04490</name>
+    <cmt>SR 41/SR 287 (El 4700')</cmt>
+    <desc>SR 41/SR 287 (El 4700')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.4809004" lon="-112.2181085">
+    <time>2009-11-28T17:39:51Z</time>
+    <name>J044DF</name>
+    <cmt>SR 287 bend</cmt>
+    <desc>SR 287 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3209476" lon="-112.1003716">
+    <ele>1569.7199707</ele>
+    <time>2009-11-28T17:43:19Z</time>
+    <name>J044LM</name>
+    <cmt>SR 287 bend (El 5150')</cmt>
+    <desc>SR 287 bend (El 5150')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3248700" lon="-112.0015099">
+    <ele>1645.9200439</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J044N0</name>
+    <cmt>SR 287 (Cross Granite Cr El 5400')</cmt>
+    <desc>SR 287 (Cross Granite Cr El 5400')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2930763" lon="-111.9495744">
+    <time>2009-11-28T17:44:49Z</time>
+    <name>J044RF</name>
+    <cmt>SR 287 bend</cmt>
+    <desc>SR 287 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2959799" lon="-111.9258499">
+    <ele>1850.1359863</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J044W0</name>
+    <cmt>SR 287 (Cross Daylight Creek El 6070')</cmt>
+    <desc>SR 287 (Cross Daylight Creek El 6070')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2804900" lon="-111.9057100">
+    <ele>2051.3039551</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J044X0</name>
+    <cmt>SR 287 bend (El 6730')</cmt>
+    <desc>SR 287 bend (El 6730')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2857600" lon="-111.8891199">
+    <ele>2124.4560547</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J044Z0</name>
+    <cmt>SR 287 top (El 6970')</cmt>
+    <desc>SR 287 top (El 6970')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3227800" lon="-111.8280600">
+    <ele>1801.3680420</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04500</name>
+    <cmt>SR 287 bend (El 5910')</cmt>
+    <desc>SR 287 bend (El 5910')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3251199" lon="-111.7461900">
+    <ele>1545.3360596</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04510</name>
+    <cmt>Cross W Madison Canal (El 5070')</cmt>
+    <desc>Cross W Madison Canal (El 5070')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3483459" lon="-111.7397938">
+    <time>2009-11-28T17:49:16Z</time>
+    <name>J04520</name>
+    <cmt>SR 287 bend</cmt>
+    <desc>SR 287 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3493753" lon="-111.7317183">
+    <time>2009-11-28T17:49:29Z</time>
+    <name>J04550</name>
+    <cmt>SR 287/US 287</cmt>
+    <desc>SR 287/US 287</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.3345700" lon="-111.7018599">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J045B0</name>
+    <cmt>US 287 (Pass Cemetery Rd)</cmt>
+    <desc>US 287 (Pass Cemetery Rd)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2325599" lon="-111.6789399">
+    <ele>1627.6319580</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J045C0</name>
+    <cmt>US 287 (Pass CR 249 El 5340')</cmt>
+    <desc>US 287 (Pass CR 249 El 5340')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.2032500" lon="-111.6786000">
+    <ele>1633.7280000</ele>
+    <name>J045D0</name>
+    <cmt>Cameron (El 5360')</cmt>
+    <desc>Cameron (El 5360')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.1450499" lon="-111.6785100">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J045E0</name>
+    <cmt>US 287 bend</cmt>
+    <desc>US 287 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.1034700" lon="-111.6504199">
+    <ele>1694.6879883</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J045F0</name>
+    <cmt>US 287 (Cross Indian Cr El 5560')</cmt>
+    <desc>US 287 (Cross Indian Cr El 5560')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.9784800" lon="-111.6469399">
+    <ele>1749.5520020</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J045J0</name>
+    <cmt>US 287 (Cross Wolf Cr El 5740')</cmt>
+    <desc>US 287 (Cross Wolf Cr El 5740')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.8660729" lon="-111.5561068">
+    <time>2009-11-28T17:52:56Z</time>
+    <name>J045NF</name>
+    <cmt>US 287 bend</cmt>
+    <desc>US 287 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.8328900" lon="-111.4885700">
+    <ele>1892.8079834</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J045P0</name>
+    <cmt>US 287 (Pass SR 87 El 6210')</cmt>
+    <desc>US 287 (Pass SR 87 El 6210')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.8274138" lon="-111.4309448">
+    <time>2009-11-28T17:56:01Z</time>
+    <name>J045S0</name>
+    <cmt>US 287 bend</cmt>
+    <desc>US 287 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.8711085" lon="-111.3491354">
+    <ele>1993.3919678</ele>
+    <time>2009-11-28T17:58:09Z</time>
+    <name>J045TF</name>
+    <cmt>US 287 bend CG (El 6540')</cmt>
+    <desc>US 287 bend CG (El 6540')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.8046499" lon="-111.2408200">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J045X0</name>
+    <cmt>US 287 bend</cmt>
+    <desc>US 287 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.8037399" lon="-111.1721999">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04600</name>
+    <cmt>US 287 bend</cmt>
+    <desc>US 287 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.7812199" lon="-111.1134099">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J04610</name>
+    <cmt>US 287/US 191 US 287</cmt>
+    <desc>US 287/US 191 US 287</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="44.6589900" lon="-111.0998400">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J046D0</name>
+    <cmt>US 191 US 287/Yellowstone Av</cmt>
+    <desc>US 191 US 287/Yellowstone Av</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.2064800" lon="-114.1555900">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J54010</name>
+    <cmt>US 93/Skalkaho Rd</cmt>
+    <desc>US 93/Skalkaho Rd</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.1968700" lon="-114.1552400">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J54020</name>
+    <cmt>Skalkaho Rd/Old Darby Rd</cmt>
+    <desc>Skalkaho Rd/Old Darby Rd</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.1656200" lon="-114.1573000">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J54030</name>
+    <cmt>Old Darby Rd (Pass Sleeping Child Rd)</cmt>
+    <desc>Old Darby Rd (Pass Sleeping Child Rd)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.0889800" lon="-114.1754600">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J54050</name>
+    <cmt>Cross US 93</cmt>
+    <desc>Cross US 93</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="46.0346900" lon="-114.1778999">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J54070</name>
+    <cmt>Old Darby Rd/US 93</cmt>
+    <desc>Old Darby Rd/US 93</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.8179700" lon="-113.9581800">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J64010</name>
+    <cmt>US 93/Edwards Rd FR 436</cmt>
+    <desc>US 93/Edwards Rd FR 436</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.8181400" lon="-113.9536300">
+    <ele>1432.5600586</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J64020</name>
+    <cmt>Edwards Rd FR 436/FR 106 (El 4700')</cmt>
+    <desc>Edwards Rd FR 436/FR 106 (El 4700')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7979699" lon="-113.9467600">
+    <ele>1551.4320068</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J64030</name>
+    <cmt>FR 106 (El 5090')</cmt>
+    <desc>FR 106 (El 5090')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7892999" lon="-113.9403099">
+    <ele>1554.4799805</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J64040</name>
+    <cmt>FR 106 (El 5100')</cmt>
+    <desc>FR 106 (El 5100')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7657299" lon="-113.9371299">
+    <ele>1798.3199463</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J64050</name>
+    <cmt>FR 106 bend (El 5900')</cmt>
+    <desc>FR 106 bend (El 5900')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7687000" lon="-113.9203500">
+    <ele>1898.9040527</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J64060</name>
+    <cmt>FR 106 bend (El 6230')</cmt>
+    <desc>FR 106 bend (El 6230')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7592599" lon="-113.9126000">
+    <ele>1981.1999512</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J64070</name>
+    <cmt>FR 106 bend (El 6500')</cmt>
+    <desc>FR 106 bend (El 6500')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7601799" lon="-113.9187300">
+    <ele>1999.4880371</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J64090</name>
+    <cmt>FR 106 bend (El 6560')</cmt>
+    <desc>FR 106 bend (El 6560')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7537199" lon="-113.9231900">
+    <ele>2051.3039551</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J640A0</name>
+    <cmt>FR 106 bend (El 6730')</cmt>
+    <desc>FR 106 bend (El 6730')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7468100" lon="-113.9142199">
+    <ele>2118.6647949</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J640B0</name>
+    <cmt>Gibbons Pass (El 6951')</cmt>
+    <desc>Gibbons Pass (El 6951')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7385700" lon="-113.9049500">
+    <ele>2072.6398926</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J640C0</name>
+    <cmt>FR 106 turn (El 6800')</cmt>
+    <desc>FR 106 turn (El 6800')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7203800" lon="-113.8851399">
+    <ele>2042.1600342</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J640D0</name>
+    <cmt>FR 106 (El 6700')</cmt>
+    <desc>FR 106 (El 6700')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.7145599" lon="-113.8750899">
+    <ele>2011.6800537</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J640E0</name>
+    <cmt>Hogan Cabin Rd (El 6600')</cmt>
+    <desc>Hogan Cabin Rd (El 6600')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.6663900" lon="-113.8165599">
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J640F0</name>
+    <cmt>FR 106</cmt>
+    <desc>FR 106</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="45.6599099" lon="-113.8128199">
+    <ele>1950.7199707</ele>
+    <time>2010-05-03T16:00:42Z</time>
+    <name>J640H0</name>
+    <cmt>FR 106/SR 43 (El 6400')</cmt>
+    <desc>FR 106/SR 43 (El 6400')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <rte>
+    <name>J04350</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.8727000" lon="-113.9918700">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04010</name>
+      <cmt>Pattee St/Pine St</cmt>
+      <desc>Pattee St/Pine St</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.8731300" lon="-113.9933299">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04040</name>
+      <cmt>Pine St/Higgins Av</cmt>
+      <desc>Pine St/Higgins Av</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.8677400" lon="-113.9967200">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04060</name>
+      <cmt>Cross Clark Fork</cmt>
+      <desc>Cross Clark Fork</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.8410799" lon="-113.9976700">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04090</name>
+      <cmt>Higgins Av/SW Higgins Av</cmt>
+      <desc>Higgins Av/SW Higgins Av</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.8341499" lon="-114.0186399">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J040H0</name>
+      <cmt>SW Higgins Av/39th St</cmt>
+      <desc>SW Higgins Av/39th St</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.8340799" lon="-114.0431000">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J040L0</name>
+      <cmt>39th St/Gharett Av</cmt>
+      <desc>39th St/Gharett Av</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.8303600" lon="-114.0430299">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J040N0</name>
+      <cmt>Gharett Av/Briggs St</cmt>
+      <desc>Gharett Av/Briggs St</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.8303600" lon="-114.0505300">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J040S0</name>
+      <cmt>Briggs St/Miller Creek Rd</cmt>
+      <desc>Briggs St/Miller Creek Rd</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.8324500" lon="-114.0505300">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J040W0</name>
+      <cmt>Miller Cr Rd/US 12 93 Brooks St</cmt>
+      <desc>Miller Cr Rd/US 12 93 Brooks St</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.8087500" lon="-114.0988100">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J040X0</name>
+      <cmt>US 93 bend</cmt>
+      <desc>US 93 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7568200" lon="-114.0824799">
+      <ele>969.2639771</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J040Z0</name>
+      <cmt>US 93/US 12 (El 3180')</cmt>
+      <desc>US 93/US 12 (El 3180')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.7567799" lon="-114.0838299">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04150</name>
+      <cmt>US 12/Bike path</cmt>
+      <desc>US 12/Bike path</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.6330299" lon="-114.0780600">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J041A0</name>
+      <cmt>Bike path/Conoco</cmt>
+      <desc>Bike path/Conoco</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.5236130" lon="-114.1141740">
+      <time>2010-05-27T19:37:55Z</time>
+      <name>J041D0</name>
+      <cmt>Pass CR 269</cmt>
+      <desc>Pass CR 269</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.4142580" lon="-114.1454860">
+      <time>2012-09-05T19:50:37Z</time>
+      <name>J041G0</name>
+      <cmt>Pass Victor Crossing</cmt>
+      <desc>Pass Victor Crossing</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.3131070" lon="-114.1558910">
+      <time>2012-09-05T19:53:41Z</time>
+      <name>J041NF</name>
+      <cmt>Cross US 93</cmt>
+      <desc>Cross US 93</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.3129970" lon="-114.1555850">
+      <time>2012-09-05T19:55:10Z</time>
+      <name>J041S0</name>
+      <cmt>Cross Woodside Cutoff Rd</cmt>
+      <desc>Cross Woodside Cutoff Rd</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.2778380" lon="-114.1616430">
+      <time>2012-09-05T20:01:39Z</time>
+      <name>J041V8</name>
+      <cmt>Cross Bitterroot River</cmt>
+      <desc>Cross Bitterroot River</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.2744650" lon="-114.1583450">
+      <time>2012-09-05T20:03:32Z</time>
+      <name>J041VC</name>
+      <cmt>bike path/Riverside Cutoff</cmt>
+      <desc>bike path/Riverside Cutoff</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.2745850" lon="-114.1553040">
+      <time>2012-09-05T20:04:30Z</time>
+      <name>J041VG</name>
+      <cmt>Riverside Cutoff Rd/Old Corvalis Rd</cmt>
+      <desc>Riverside Cutoff Rd/Old Corvalis Rd</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.2551290" lon="-114.1553130">
+      <time>2012-09-05T20:05:49Z</time>
+      <name>J041VM</name>
+      <cmt>OldCorvallisRd/FairgroundsRd AdirondacAv</cmt>
+      <desc>OldCorvallisRd/FairgroundsRd AdirondacAv</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.2549330" lon="-114.1581700">
+      <time>2012-09-05T20:08:15Z</time>
+      <name>J041VR</name>
+      <cmt>Adirondac Av Fairgrounds Rd/2nd St</cmt>
+      <desc>Adirondac Av Fairgrounds Rd/2nd St</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>008000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.2369430" lon="-114.1557440">
+      <time>2012-09-05T20:09:54Z</time>
+      <name>J041WK</name>
+      <cmt>2nd St/Hope Av</cmt>
+      <desc>2nd St/Hope Av</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.2369400" lon="-114.1546000">
+      <time>2012-09-05T20:24:42Z</time>
+      <name>J041X0</name>
+      <cmt>Hope Av/bike path</cmt>
+      <desc>Hope Av/bike path</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>J04370</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.2369400" lon="-114.1546000">
+      <time>2012-09-05T20:24:42Z</time>
+      <name>J041X0</name>
+      <cmt>Hope Av/bike path</cmt>
+      <desc>Hope Av/bike path</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.2064800" lon="-114.1555900">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04210</name>
+      <cmt>bike path (Pass Skalkaho Rd)</cmt>
+      <desc>bike path (Pass Skalkaho Rd)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.1832999" lon="-114.1799200">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04220</name>
+      <cmt>Cross Judd Cr</cmt>
+      <desc>Cross Judd Cr</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.0814200" lon="-114.1704600">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04260</name>
+      <cmt>US 93 (Pass Lake Como Rd)</cmt>
+      <desc>US 93 (Pass Lake Como Rd)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.0346900" lon="-114.1778999">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04270</name>
+      <cmt>US 93 (Pass Old Darby Rd)</cmt>
+      <desc>US 93 (Pass Old Darby Rd)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.9306600" lon="-114.1180800">
+      <ele>1249.6800537</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J042D0</name>
+      <cmt>US 93 (Pass Conner Cutoff El 4100')</cmt>
+      <desc>US 93 (Pass Conner Cutoff El 4100')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.9025300" lon="-114.0712599">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J042F0</name>
+      <cmt>Billy Goat Gulch</cmt>
+      <desc>Billy Goat Gulch</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.8759991" lon="-114.0613808">
+      <time>2009-11-28T17:31:27Z</time>
+      <name>J042G0</name>
+      <cmt>US 93 bend</cmt>
+      <desc>US 93 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.8179700" lon="-113.9581800">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J042N0</name>
+      <cmt>US 93 (Pass FR 436)</cmt>
+      <desc>US 93 (Pass FR 436)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7923899" lon="-113.9495900">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J042Q0</name>
+      <cmt>Camp Creek Inn Rd</cmt>
+      <desc>Camp Creek Inn Rd</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7496499" lon="-113.9411800">
+      <ele>1645.9200439</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J042T0</name>
+      <cmt>Gallogly Spring (El 5400')</cmt>
+      <desc>Gallogly Spring (El 5400')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7320000" lon="-113.9199400">
+      <ele>1798.3199463</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J042U0</name>
+      <cmt>US 93 bend (El 5900')</cmt>
+      <desc>US 93 bend (El 5900')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7148400" lon="-113.9193999">
+      <ele>1889.7600098</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J042V0</name>
+      <cmt>US 93 bend (El 6200')</cmt>
+      <desc>US 93 bend (El 6200')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.6935000" lon="-113.9481299">
+      <ele>2133.6000977</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J042W0</name>
+      <cmt>Lost Trail Pass (El 7000')</cmt>
+      <desc>Lost Trail Pass (El 7000')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.6845899" lon="-113.9331200">
+      <ele>2207.0568848</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J042X0</name>
+      <cmt>Chief Joseph Pass (El 7241')</cmt>
+      <desc>Chief Joseph Pass (El 7241')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.6754699" lon="-113.8815500">
+      <ele>2000.0976563</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J042Z0</name>
+      <cmt>Cross Joseph Cr (El 6562')</cmt>
+      <desc>Cross Joseph Cr (El 6562')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.6599099" lon="-113.8128199">
+      <ele>1950.7199707</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04300</name>
+      <cmt>SR 43 (Pass FR 106 El 6400')</cmt>
+      <desc>SR 43 (Pass FR 106 El 6400')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.6174200" lon="-113.4490299">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04320</name>
+      <cmt>SR 43/CR 278</cmt>
+      <desc>SR 43/CR 278</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.4480400" lon="-113.4572100">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04330</name>
+      <cmt>CR 278 bend</cmt>
+      <desc>CR 278 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3566900" lon="-113.4085400">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04360</name>
+      <cmt>CR 278 bend</cmt>
+      <desc>CR 278 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>J04400</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="45.3566900" lon="-113.4085400">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04360</name>
+      <cmt>CR 278 bend</cmt>
+      <desc>CR 278 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3179200" lon="-113.3258600">
+      <ele>2042.1600342</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04370</name>
+      <cmt>Harrison Gulch (El 6700')</cmt>
+      <desc>Harrison Gulch (El 6700')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3373100" lon="-113.2595999">
+      <ele>2133.6000977</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04390</name>
+      <cmt>CR 278 bend (El 7000')</cmt>
+      <desc>CR 278 bend (El 7000')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3304500" lon="-113.2411499">
+      <ele>2243.3278809</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043A0</name>
+      <cmt>Big Hole Pass (El 7360')</cmt>
+      <desc>Big Hole Pass (El 7360')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3168700" lon="-113.1704600">
+      <ele>1981.1999512</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043B0</name>
+      <cmt>Cross Ames Cr (El 6500')</cmt>
+      <desc>Cross Ames Cr (El 6500')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2784400" lon="-113.1207099">
+      <ele>1859.2800293</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043C0</name>
+      <cmt>CR 278 (Pass CR 73 El 6100')</cmt>
+      <desc>CR 278 (Pass CR 73 El 6100')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2310600" lon="-113.0820200">
+      <ele>1828.8000488</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043D0</name>
+      <cmt>CR 278 (Pass Taylor Cr Rd El 6000'</cmt>
+      <desc>CR 278 (Pass Taylor Cr Rd El 6000'</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2073700" lon="-113.0139500">
+      <ele>1859.2800293</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043F0</name>
+      <cmt>CR 278 (Pass Bannack Rd El 6100')</cmt>
+      <desc>CR 278 (Pass Bannack Rd El 6100')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2344299" lon="-112.9505000">
+      <ele>2060.4479980</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043H0</name>
+      <cmt>Badger Pass (El 6760')</cmt>
+      <desc>Badger Pass (El 6760')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2223900" lon="-112.8139299">
+      <ele>1706.8800049</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043J0</name>
+      <cmt>CR 278 (Pass Argenta Rd El 5600')</cmt>
+      <desc>CR 278 (Pass Argenta Rd El 5600')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.1793000" lon="-112.6923499">
+      <ele>1584.9599609</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043K0</name>
+      <cmt>CR 278/Frontage Rd (El 5200')</cmt>
+      <desc>CR 278/Frontage Rd (El 5200')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.1815099" lon="-112.6888299">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043M0</name>
+      <cmt>Cross Beaverhead River</cmt>
+      <desc>Cross Beaverhead River</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.1825200" lon="-112.6802100">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043N0</name>
+      <cmt>Over railroad</cmt>
+      <desc>Over railroad</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.1931299" lon="-112.6524200">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043P0</name>
+      <cmt>Frontage road bend</cmt>
+      <desc>Frontage road bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2075399" lon="-112.6413099">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043R0</name>
+      <cmt>E Chapman St bend</cmt>
+      <desc>E Chapman St bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2081399" lon="-112.6420500">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043S0</name>
+      <cmt>E Chapman St/N Atlantic St</cmt>
+      <desc>E Chapman St/N Atlantic St</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2168900" lon="-112.6320499">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J043T0</name>
+      <cmt>N Atlantic St/Helana St</cmt>
+      <desc>N Atlantic St/Helana St</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2189999" lon="-112.6356599">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04400</name>
+      <cmt>Helena St/Montana St</cmt>
+      <desc>Helena St/Montana St</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2284800" lon="-112.6281500">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04430</name>
+      <cmt>I-15 Bus/SR 41</cmt>
+      <desc>I-15 Bus/SR 41</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3724100" lon="-112.4642799">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04440</name>
+      <cmt>Beaverhead/Madison County Line</cmt>
+      <desc>Beaverhead/Madison County Line</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3833499" lon="-112.4531400">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04450</name>
+      <cmt>SR 41 Cross Beaverhead River</cmt>
+      <desc>SR 41 Cross Beaverhead River</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.5442999" lon="-112.3325700">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04460</name>
+      <cmt>Cross Beaverhead River</cmt>
+      <desc>Cross Beaverhead River</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.5443400" lon="-112.3311300">
+      <ele>1432.5600586</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04490</name>
+      <cmt>SR 41/SR 287 (El 4700')</cmt>
+      <desc>SR 41/SR 287 (El 4700')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.4809004" lon="-112.2181085">
+      <time>2009-11-28T17:39:51Z</time>
+      <name>J044DF</name>
+      <cmt>SR 287 bend</cmt>
+      <desc>SR 287 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3209476" lon="-112.1003716">
+      <ele>1569.7199707</ele>
+      <time>2009-11-28T17:43:19Z</time>
+      <name>J044LM</name>
+      <cmt>SR 287 bend (El 5150')</cmt>
+      <desc>SR 287 bend (El 5150')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3248700" lon="-112.0015099">
+      <ele>1645.9200439</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J044N0</name>
+      <cmt>SR 287 (Cross Granite Cr El 5400')</cmt>
+      <desc>SR 287 (Cross Granite Cr El 5400')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2930763" lon="-111.9495744">
+      <time>2009-11-28T17:44:49Z</time>
+      <name>J044RF</name>
+      <cmt>SR 287 bend</cmt>
+      <desc>SR 287 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>J04440</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="45.2930763" lon="-111.9495744">
+      <time>2009-11-28T17:44:49Z</time>
+      <name>J044RF</name>
+      <cmt>SR 287 bend</cmt>
+      <desc>SR 287 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2959799" lon="-111.9258499">
+      <ele>1850.1359863</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J044W0</name>
+      <cmt>SR 287 (Cross Daylight Creek El 6070')</cmt>
+      <desc>SR 287 (Cross Daylight Creek El 6070')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2804900" lon="-111.9057100">
+      <ele>2051.3039551</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J044X0</name>
+      <cmt>SR 287 bend (El 6730')</cmt>
+      <desc>SR 287 bend (El 6730')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2857600" lon="-111.8891199">
+      <ele>2124.4560547</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J044Z0</name>
+      <cmt>SR 287 top (El 6970')</cmt>
+      <desc>SR 287 top (El 6970')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3227800" lon="-111.8280600">
+      <ele>1801.3680420</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04500</name>
+      <cmt>SR 287 bend (El 5910')</cmt>
+      <desc>SR 287 bend (El 5910')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3251199" lon="-111.7461900">
+      <ele>1545.3360596</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04510</name>
+      <cmt>Cross W Madison Canal (El 5070')</cmt>
+      <desc>Cross W Madison Canal (El 5070')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3483459" lon="-111.7397938">
+      <time>2009-11-28T17:49:16Z</time>
+      <name>J04520</name>
+      <cmt>SR 287 bend</cmt>
+      <desc>SR 287 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3493753" lon="-111.7317183">
+      <time>2009-11-28T17:49:29Z</time>
+      <name>J04550</name>
+      <cmt>SR 287/US 287</cmt>
+      <desc>SR 287/US 287</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.3345700" lon="-111.7018599">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J045B0</name>
+      <cmt>US 287 (Pass Cemetery Rd)</cmt>
+      <desc>US 287 (Pass Cemetery Rd)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.2325599" lon="-111.6789399">
+      <ele>1627.6319580</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J045C0</name>
+      <cmt>US 287 (Pass CR 249 El 5340')</cmt>
+      <desc>US 287 (Pass CR 249 El 5340')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.1450499" lon="-111.6785100">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J045E0</name>
+      <cmt>US 287 bend</cmt>
+      <desc>US 287 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.1034700" lon="-111.6504199">
+      <ele>1694.6879883</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J045F0</name>
+      <cmt>US 287 (Cross Indian Cr El 5560')</cmt>
+      <desc>US 287 (Cross Indian Cr El 5560')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.9784800" lon="-111.6469399">
+      <ele>1749.5520020</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J045J0</name>
+      <cmt>US 287 (Cross Wolf Cr El 5740')</cmt>
+      <desc>US 287 (Cross Wolf Cr El 5740')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.8660729" lon="-111.5561068">
+      <time>2009-11-28T17:52:56Z</time>
+      <name>J045NF</name>
+      <cmt>US 287 bend</cmt>
+      <desc>US 287 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.8328900" lon="-111.4885700">
+      <ele>1892.8079834</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J045P0</name>
+      <cmt>US 287 (Pass SR 87 El 6210')</cmt>
+      <desc>US 287 (Pass SR 87 El 6210')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.8274138" lon="-111.4309448">
+      <time>2009-11-28T17:56:01Z</time>
+      <name>J045S0</name>
+      <cmt>US 287 bend</cmt>
+      <desc>US 287 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.8711085" lon="-111.3491354">
+      <ele>1993.3919678</ele>
+      <time>2009-11-28T17:58:09Z</time>
+      <name>J045TF</name>
+      <cmt>US 287 bend CG (El 6540')</cmt>
+      <desc>US 287 bend CG (El 6540')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.8046499" lon="-111.2408200">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J045X0</name>
+      <cmt>US 287 bend</cmt>
+      <desc>US 287 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.8037399" lon="-111.1721999">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04600</name>
+      <cmt>US 287 bend</cmt>
+      <desc>US 287 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.7812199" lon="-111.1134099">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J04610</name>
+      <cmt>US 287/US 191 US 287</cmt>
+      <desc>US 287/US 191 US 287</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="44.6589900" lon="-111.0998400">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J046D0</name>
+      <cmt>US 191 US 287/Yellowstone Av</cmt>
+      <desc>US 191 US 287/Yellowstone Av</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>J54371</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="46.2064800" lon="-114.1555900">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J54010</name>
+      <cmt>US 93/Skalkaho Rd</cmt>
+      <desc>US 93/Skalkaho Rd</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.1968700" lon="-114.1552400">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J54020</name>
+      <cmt>Skalkaho Rd/Old Darby Rd</cmt>
+      <desc>Skalkaho Rd/Old Darby Rd</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.1656200" lon="-114.1573000">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J54030</name>
+      <cmt>Old Darby Rd (Pass Sleeping Child Rd)</cmt>
+      <desc>Old Darby Rd (Pass Sleeping Child Rd)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.0889800" lon="-114.1754600">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J54050</name>
+      <cmt>Cross US 93</cmt>
+      <desc>Cross US 93</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="46.0346900" lon="-114.1778999">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J54070</name>
+      <cmt>Old Darby Rd/US 93</cmt>
+      <desc>Old Darby Rd/US 93</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>J64381</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="45.8179700" lon="-113.9581800">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J64010</name>
+      <cmt>US 93/Edwards Rd FR 436</cmt>
+      <desc>US 93/Edwards Rd FR 436</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.8181400" lon="-113.9536300">
+      <ele>1432.5600586</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J64020</name>
+      <cmt>Edwards Rd FR 436/FR 106 (El 4700')</cmt>
+      <desc>Edwards Rd FR 436/FR 106 (El 4700')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7979699" lon="-113.9467600">
+      <ele>1551.4320068</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J64030</name>
+      <cmt>FR 106 (El 5090')</cmt>
+      <desc>FR 106 (El 5090')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7892999" lon="-113.9403099">
+      <ele>1554.4799805</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J64040</name>
+      <cmt>FR 106 (El 5100')</cmt>
+      <desc>FR 106 (El 5100')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7657299" lon="-113.9371299">
+      <ele>1798.3199463</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J64050</name>
+      <cmt>FR 106 bend (El 5900')</cmt>
+      <desc>FR 106 bend (El 5900')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7687000" lon="-113.9203500">
+      <ele>1898.9040527</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J64060</name>
+      <cmt>FR 106 bend (El 6230')</cmt>
+      <desc>FR 106 bend (El 6230')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7592599" lon="-113.9126000">
+      <ele>1981.1999512</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J64070</name>
+      <cmt>FR 106 bend (El 6500')</cmt>
+      <desc>FR 106 bend (El 6500')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7601799" lon="-113.9187300">
+      <ele>1999.4880371</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J64090</name>
+      <cmt>FR 106 bend (El 6560')</cmt>
+      <desc>FR 106 bend (El 6560')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7537199" lon="-113.9231900">
+      <ele>2051.3039551</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J640A0</name>
+      <cmt>FR 106 bend (El 6730')</cmt>
+      <desc>FR 106 bend (El 6730')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7468100" lon="-113.9142199">
+      <ele>2118.6647949</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J640B0</name>
+      <cmt>Gibbons Pass (El 6951')</cmt>
+      <desc>Gibbons Pass (El 6951')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7385700" lon="-113.9049500">
+      <ele>2072.6398926</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J640C0</name>
+      <cmt>FR 106 turn (El 6800')</cmt>
+      <desc>FR 106 turn (El 6800')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7203800" lon="-113.8851399">
+      <ele>2042.1600342</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J640D0</name>
+      <cmt>FR 106 (El 6700')</cmt>
+      <desc>FR 106 (El 6700')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.7145599" lon="-113.8750899">
+      <ele>2011.6800537</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J640E0</name>
+      <cmt>Hogan Cabin Rd (El 6600')</cmt>
+      <desc>Hogan Cabin Rd (El 6600')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.6663900" lon="-113.8165599">
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J640F0</name>
+      <cmt>FR 106</cmt>
+      <desc>FR 106</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="45.6599099" lon="-113.8128199">
+      <ele>1950.7199707</ele>
+      <time>2010-05-03T16:00:42Z</time>
+      <name>J640H0</name>
+      <cmt>FR 106/SR 43 (El 6400')</cmt>
+      <desc>FR 106/SR 43 (El 6400')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>

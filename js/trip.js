@@ -13,42 +13,50 @@ Function.prototype.memoize = function(){
 
 
 var ks = (function (exports) {
+  ks.webRoot = window.location.href;
+
+  var readGPXFile = function (url){
+    var deferred = $.Deferred();
+    $.ajax({
+      type: 'GET',
+      url: url,
+      success: function(gpx) {
+        console.log("load new run");
+        var result = { bounds : new google.maps.LatLngBounds(), points: [] };
+        result.points = $(gpx)
+                          .find('trkpt, rte > rtept')
+                          .map(function(){
+                              var point = new google.maps.LatLng($(this).attr('lat'), $(this).attr('lon'))
+                              result.bounds.extend(point);
+                              return point;
+                            });
+
+        result.route = new google.maps.Polyline({
+          path: result.points,
+          strokeColor: '#FF0000',
+          strokeOpacity: 1.0,
+          strokeWeight: 2
+        });
+
+        deferred.resolve(result);
+      },
+      failure: function () {
+        return deferred.reject(null);
+      }
+    })
+    return deferred.promise();
+  };
+
+  exports.Route = function(fileUrl) {
+    readGPXFile(ks.webRoot + '/' + file);
+  };
+
   exports.Trip = function(manifest){
     var prop = {
       manifest: manifest
       };
 
-    function getPolyline(file) {
-      var deferred = $.Deferred();
-      $.ajax({
-        type: 'GET',
-        url: ks.webRoot + '/' + file,
-        success: function(gpx) {
-          console.log("load new run");
-          var result = { bounds : new google.maps.LatLngBounds(), points: [] };
-          result.points = $(gpx)
-                            .find('trkpt')
-                            .map(function(){
-                                var point = new google.maps.LatLng($(this).attr('lat'), $(this).attr('lon'))
-                                result.bounds.extend(point);
-                                return point;
-                              });
 
-          result.route = new google.maps.Polyline({
-            path: result.points,
-            strokeColor: '#FF0000',
-            strokeOpacity: 1.0,
-            strokeWeight: 2
-          });
-
-          deferred.resolve(result);
-        },
-        failure: function () {
-          return deferred.reject(null);
-        }
-      })
-      return deferred.promise();
-    }
     prop.data = [];
 
     prop.initialize = function (regex) {
@@ -76,26 +84,35 @@ var ks = (function (exports) {
       });
     }
 
+
+    function getPolyline(file) {
+      return readGPXFile(ks.webRoot + '/' + file);
+    }
+
     prop.fetchPolyline = getPolyline.memoize();
 
     prop.setActiveIndex = function (index) {
       if(index === prop.index)
-        return;
+        return false;
       else
       {
         prop.busy = true;
         prop.index = index;
         prop.leg = prop.data[index];
+        var complete = prop.data.length > prop.index + 1;;
         prop.fetchPolyline(prop.leg.file).done(function(data){
           prop.mapData = data;
           prop.dispatchEvent('change', prop );
           prop.busy = false;
+          prop.dispatchEvent('idle', prop );
         });
+        prop.dispatchEvent('complete', prop );
+        return complete;
       }
     };
 
     prop.next = function () {
-      prop.setActiveIndex((prop.index + 1) % prop.data.length);
+      return prop.setActiveIndex((prop.index + 1) % prop.data.length);
     }
 
     $.extend(prop, ks.events);

@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.15.11" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2013-08-28T15:43:51Z</time>
+    <bounds maxlat="38.5047099" maxlon="-99.5485467" minlat="38.1547800" minlon="-104.6086250"/>
+  </metadata>
+
+  <wpt lat="38.2707640" lon="-104.6086250">
+    <time>2012-05-07T16:18:04Z</time>
+    <name>J070F0</name>
+    <cmt>4th St/Main St</cmt>
+    <desc>4th St/Main St</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.2734100" lon="-104.5605000">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J070J0</name>
+    <cmt>SR 96/SR 96 &amp; US 50</cmt>
+    <desc>SR 96/SR 96 &amp; US 50</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.2750800" lon="-104.4966699">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J070K0</name>
+    <cmt>SR 96 &amp; US 50 (Pass SR 233)</cmt>
+    <desc>SR 96 &amp; US 50 (Pass SR 233)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.2614699" lon="-104.3665499">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J070M0</name>
+    <cmt>SR 96 &amp; US 50/SR 96</cmt>
+    <desc>SR 96 &amp; US 50/SR 96</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.2464548" lon="-104.2392677">
+    <time>2010-03-01T12:47:09Z</time>
+    <name>J070NF</name>
+    <cmt>SR 96 bend</cmt>
+    <desc>SR 96 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.1932800" lon="-104.1537900">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J070R0</name>
+    <cmt>SR 96 bend</cmt>
+    <desc>SR 96 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.1551700" lon="-104.0231500">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J070S0</name>
+    <cmt>SR 96 (Pass SR 167)</cmt>
+    <desc>SR 96 (Pass SR 167)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.1547800" lon="-103.9838300">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J070W0</name>
+    <cmt>SR 96 bend</cmt>
+    <desc>SR 96 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.2145299" lon="-103.7526500">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J07120</name>
+    <cmt>SR 96/1st St</cmt>
+    <desc>SR 96/1st St</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.2144800" lon="-103.7480999">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J07130</name>
+    <cmt>1st St/SR 71</cmt>
+    <desc>1st St/SR 71</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.2177000" lon="-103.7480999">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J07150</name>
+    <cmt>SR 71/SR 96</cmt>
+    <desc>SR 71/SR 96</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.2345700" lon="-103.6629199">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J0715F</name>
+    <cmt>SR 96 turn</cmt>
+    <desc>SR 96 turn</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.2910499" lon="-103.3791799">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J071A0</name>
+    <cmt>SR 96 bend</cmt>
+    <desc>SR 96 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4057600" lon="-103.2958100">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J071B0</name>
+    <cmt>SR 96 bend</cmt>
+    <desc>SR 96 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.5047099" lon="-103.0410300">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J071E0</name>
+    <cmt>SR 96 bend</cmt>
+    <desc>SR 96 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4779400" lon="-102.7857699">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J071H0</name>
+    <cmt>SR 96/SR 96 &amp; US 287</cmt>
+    <desc>SR 96/SR 96 &amp; US 287</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4734800" lon="-102.7348400">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J071M0</name>
+    <cmt>SR 96 &amp; US 287/SR 96</cmt>
+    <desc>SR 96 &amp; US 287/SR 96</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4627000" lon="-102.6401700">
+    <ele>1249.6800537</ele>
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J071N0</name>
+    <cmt>SR 96 (El 4100')</cmt>
+    <desc>SR 96 (El 4100')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4342900" lon="-102.5534299">
+    <ele>1179.5760498</ele>
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J071P0</name>
+    <cmt>Cross Rush Cr (El 3870')</cmt>
+    <desc>Cross Rush Cr (El 3870')</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4644599" lon="-102.3082500">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J071T0</name>
+    <cmt>SR 96/SR 96 &amp; US 385</cmt>
+    <desc>SR 96/SR 96 &amp; US 385</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4659699" lon="-102.2937000">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J071U0</name>
+    <cmt>SR 96 &amp; US 385/SR 96</cmt>
+    <desc>SR 96 &amp; US 385/SR 96</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4686699" lon="-102.0450900">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J071Z0</name>
+    <cmt>Colorado/Kansas State Line</cmt>
+    <desc>Colorado/Kansas State Line</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4652908" lon="-101.7456488">
+    <time>2010-03-01T12:54:39Z</time>
+    <name>J0724F</name>
+    <cmt>SR 96 bend</cmt>
+    <desc>SR 96 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4533099" lon="-101.6732699">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J07250</name>
+    <cmt>SR 96 bend</cmt>
+    <desc>SR 96 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4808799" lon="-101.4888599">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J07270</name>
+    <cmt>Cross White Woman Cr</cmt>
+    <desc>Cross White Woman Cr</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4824000" lon="-100.9068900">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J072L0</name>
+    <cmt>SR 96 (Cross US 83)</cmt>
+    <desc>SR 96 (Cross US 83)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4817599" lon="-100.4671000">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J072S0</name>
+    <cmt>SR 96 (Cross SR 23)</cmt>
+    <desc>SR 96 (Cross SR 23)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4794500" lon="-100.2653799">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J072V0</name>
+    <cmt>SR 96 bend</cmt>
+    <desc>SR 96 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4514599" lon="-100.2248300">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J072W0</name>
+    <cmt>SR 96 bend</cmt>
+    <desc>SR 96 bend</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4527099" lon="-99.9052899">
+    <time>2010-05-03T22:17:02Z</time>
+    <name>J072Z0</name>
+    <cmt>SR 96 (Cross US 283)</cmt>
+    <desc>SR 96 (Cross US 283)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="38.4674298" lon="-99.5485467">
+    <time>2010-03-01T13:04:47Z</time>
+    <name>J07390</name>
+    <cmt>SR 96 (Pass School St)</cmt>
+    <desc>SR 96 (Pass School St)</desc>
+    <sym>Waypoint</sym>
+    <extensions>
+      <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+
+  <rte>
+    <name>J07740</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="38.2707640" lon="-104.6086250">
+      <time>2012-05-07T16:18:04Z</time>
+      <name>J070F0</name>
+      <cmt>4th St/Main St</cmt>
+      <desc>4th St/Main St</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.2734100" lon="-104.5605000">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J070J0</name>
+      <cmt>SR 96/SR 96 &amp; US 50</cmt>
+      <desc>SR 96/SR 96 &amp; US 50</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.2750800" lon="-104.4966699">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J070K0</name>
+      <cmt>SR 96 &amp; US 50 (Pass SR 233)</cmt>
+      <desc>SR 96 &amp; US 50 (Pass SR 233)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.2614699" lon="-104.3665499">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J070M0</name>
+      <cmt>SR 96 &amp; US 50/SR 96</cmt>
+      <desc>SR 96 &amp; US 50/SR 96</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.2464548" lon="-104.2392677">
+      <time>2010-03-01T12:47:09Z</time>
+      <name>J070NF</name>
+      <cmt>SR 96 bend</cmt>
+      <desc>SR 96 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.1932800" lon="-104.1537900">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J070R0</name>
+      <cmt>SR 96 bend</cmt>
+      <desc>SR 96 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.1551700" lon="-104.0231500">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J070S0</name>
+      <cmt>SR 96 (Pass SR 167)</cmt>
+      <desc>SR 96 (Pass SR 167)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.1547800" lon="-103.9838300">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J070W0</name>
+      <cmt>SR 96 bend</cmt>
+      <desc>SR 96 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.2145299" lon="-103.7526500">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J07120</name>
+      <cmt>SR 96/1st St</cmt>
+      <desc>SR 96/1st St</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.2144800" lon="-103.7480999">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J07130</name>
+      <cmt>1st St/SR 71</cmt>
+      <desc>1st St/SR 71</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.2177000" lon="-103.7480999">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J07150</name>
+      <cmt>SR 71/SR 96</cmt>
+      <desc>SR 71/SR 96</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.2345700" lon="-103.6629199">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J0715F</name>
+      <cmt>SR 96 turn</cmt>
+      <desc>SR 96 turn</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.2910499" lon="-103.3791799">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J071A0</name>
+      <cmt>SR 96 bend</cmt>
+      <desc>SR 96 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4057600" lon="-103.2958100">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J071B0</name>
+      <cmt>SR 96 bend</cmt>
+      <desc>SR 96 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.5047099" lon="-103.0410300">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J071E0</name>
+      <cmt>SR 96 bend</cmt>
+      <desc>SR 96 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4779400" lon="-102.7857699">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J071H0</name>
+      <cmt>SR 96/SR 96 &amp; US 287</cmt>
+      <desc>SR 96/SR 96 &amp; US 287</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4734800" lon="-102.7348400">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J071M0</name>
+      <cmt>SR 96 &amp; US 287/SR 96</cmt>
+      <desc>SR 96 &amp; US 287/SR 96</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+  <rte>
+    <name>J07780</name>
+    <extensions>
+      <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="38.4734800" lon="-102.7348400">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J071M0</name>
+      <cmt>SR 96 &amp; US 287/SR 96</cmt>
+      <desc>SR 96 &amp; US 287/SR 96</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4627000" lon="-102.6401700">
+      <ele>1249.6800537</ele>
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J071N0</name>
+      <cmt>SR 96 (El 4100')</cmt>
+      <desc>SR 96 (El 4100')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4342900" lon="-102.5534299">
+      <ele>1179.5760498</ele>
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J071P0</name>
+      <cmt>Cross Rush Cr (El 3870')</cmt>
+      <desc>Cross Rush Cr (El 3870')</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4644599" lon="-102.3082500">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J071T0</name>
+      <cmt>SR 96/SR 96 &amp; US 385</cmt>
+      <desc>SR 96/SR 96 &amp; US 385</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4659699" lon="-102.2937000">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J071U0</name>
+      <cmt>SR 96 &amp; US 385/SR 96</cmt>
+      <desc>SR 96 &amp; US 385/SR 96</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4686699" lon="-102.0450900">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J071Z0</name>
+      <cmt>Colorado/Kansas State Line</cmt>
+      <desc>Colorado/Kansas State Line</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4652908" lon="-101.7456488">
+      <time>2010-03-01T12:54:39Z</time>
+      <name>J0724F</name>
+      <cmt>SR 96 bend</cmt>
+      <desc>SR 96 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4533099" lon="-101.6732699">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J07250</name>
+      <cmt>SR 96 bend</cmt>
+      <desc>SR 96 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4808799" lon="-101.4888599">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J07270</name>
+      <cmt>Cross White Woman Cr</cmt>
+      <desc>Cross White Woman Cr</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4824000" lon="-100.9068900">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J072L0</name>
+      <cmt>SR 96 (Cross US 83)</cmt>
+      <desc>SR 96 (Cross US 83)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4817599" lon="-100.4671000">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J072S0</name>
+      <cmt>SR 96 (Cross SR 23)</cmt>
+      <desc>SR 96 (Cross SR 23)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4794500" lon="-100.2653799">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J072V0</name>
+      <cmt>SR 96 bend</cmt>
+      <desc>SR 96 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4514599" lon="-100.2248300">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J072W0</name>
+      <cmt>SR 96 bend</cmt>
+      <desc>SR 96 bend</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4527099" lon="-99.9052899">
+      <time>2010-05-03T22:17:02Z</time>
+      <name>J072Z0</name>
+      <cmt>SR 96 (Cross US 283)</cmt>
+      <desc>SR 96 (Cross US 283)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="38.4674298" lon="-99.5485467">
+      <time>2010-03-01T13:04:47Z</time>
+      <name>J07390</name>
+      <cmt>SR 96 (Pass School St)</cmt>
+      <desc>SR 96 (Pass School St)</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>
