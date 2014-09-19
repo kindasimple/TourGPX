@@ -14,6 +14,15 @@ Function.prototype.memoize = function(){
 
 var ks = (function (exports) {
   ks.webRoot = window.location.href;
+  var Colors = (function() {
+    var colors = ['red', 'orange', 'yellow', 'green', 'blue'];
+    var index = 0;
+    return {
+      next: function(){
+        return colors[index++ % colors.length];
+      }
+    };
+  }());
 
   var readGPXFile = function (url){
     var deferred = $.Deferred();
@@ -22,14 +31,48 @@ var ks = (function (exports) {
       url: url,
       success: function(gpx) {
         console.log("load new run");
-        var result = { bounds : new google.maps.LatLngBounds(), points: [] };
-        result.points = $(gpx)
-                          .find('trkpt, rte > rtept')
-                          .map(function(){
-                              var point = new google.maps.LatLng($(this).attr('lat'), $(this).attr('lon'))
-                              result.bounds.extend(point);
-                              return point;
-                            });
+        var result = {
+          bounds : new google.maps.LatLngBounds(),
+          points: [],
+          paths: []
+        };
+
+        var path = {
+          bounds: new google.maps.LatLngBounds()
+        };
+        path.points = $(gpx)
+                        .find('trkpt')
+                        .map(function(){
+                            var point = new google.maps.LatLng($(this).attr('lat'), $(this).attr('lon'))
+                            result.bounds.extend(point);
+                            path.bounds.extend(point);
+                            return point;
+                          });
+        path.color = 'red';
+
+        if(path.points.length > 0) {
+          result.paths.push(path);
+          result.points.concat(path.points);
+        } else {
+          $(gpx)
+            .find('rte')
+            .each(function () {
+              path = { bounds: new google.maps.LatLngBounds() };
+              path.points = $(this)
+                              .find('rtept')
+                              .map(function(){
+                                var point = new google.maps.LatLng($(this).attr('lat'), $(this).attr('lon'))
+                                path.bounds.extend(point);
+                                result.bounds.extend(point);
+                                return point;
+                              });
+
+              path.color = Colors.next();//$(this).find('rtept > extensions > gpxx\\:RouteExtension > gpxx\\:DisplayColor');
+              result.paths.push(path);
+              result.points = result.points.concat(path.points.toArray());
+            });
+        }
+
 
         result.route = new google.maps.Polyline({
           path: result.points,

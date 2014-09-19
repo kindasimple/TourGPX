@@ -12,6 +12,8 @@
     <script type="text/javascript" src="js/events.js"></script>
   <script type="text/javascript" src="js/trip.js"></script>
   <script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript" src="js/gps.js"></script>
+<script type="text/javascript" src="lib/geolocationmarker-compiled.js"></script>
     <script type="text/javascript">
       function initialize() {
         var trip = new ks.Trip('transam.json');
@@ -26,7 +28,9 @@
 
             map = new ks.Map("map-canvas", {
               center: location, zoom: 16
-            }).trip(trip, {bounds: false, center: false, preload: true});
+            })
+            .trip(trip, {bounds: false, center: false, preload: true})
+            .track(new ks.Gps(10000));
             trip.initialize(/TA(\d*)+Routes/);
           });
         } else {

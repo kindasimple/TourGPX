@@ -19,7 +19,7 @@
 
         var route = new google.maps.Polyline({
           path: data.mapData.points,
-          strokeColor: '#FF0000',
+          strokeColor: data.mapData.strokeColor,
           strokeOpacity: 1.0,
           strokeWeight: 2
         });
@@ -41,6 +41,30 @@
           });
         });
       }
+    };
+
+    this.track = function (agent) {
+      var self = this;
+      var GeoMarker = new GeolocationMarker(self.map);
+      agent.addEventListener('heartbeat', function (position) {
+        if(!agent.marker) {
+          agent.marker = new google.maps.Marker({
+            map:self.map,
+            draggable:false,
+            animation: google.maps.Animation.DROP,
+            position: new google.maps.LatLng(position.coords.latitude, position.coords.longitude),
+            icon: 'img/gpsloc.png'
+          });
+        } else {
+          var newPosition = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+          if((google.maps.geometry.spherical.computeDistanceBetween(agent.marker.position, newPosition) / 1000) > .1) {
+            self.map.panTo( newPosition );
+          }
+          agent.marker.setPosition( newPosition );
+        }
+
+      })
+      //agent.run();
     };
 
     this.trip = function (trip, options){
