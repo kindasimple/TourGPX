@@ -15,7 +15,7 @@ Function.prototype.memoize = function(){
 var ks = (function (exports) {
   ks.webRoot = window.location.href;
   var Colors = (function() {
-    var colors = ['red', 'orange', 'yellow', 'green', 'blue'];
+    var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple','brown'];
     var index = 0;
     return {
       next: function(){
@@ -24,7 +24,69 @@ var ks = (function (exports) {
     };
   }());
 
+  var getBounds = function(points) {
+    var bounds = new google.maps.LatLngBounds();
+    if(points && points.length) { 
+      if(typeof points[0] === "latlng") {
+	points.forEach(function(point) {
+	  bounds.extend(points)
+	});
+      }
+    }
+    return bounds;
+  }
+
   var readGPXFile = function (url){
+    var deferred = $.Deferred();
+    $.ajax({
+      type: 'GET',
+      url: url,
+      success: function(gpx) {
+        console.log("load new run");
+        var result = {
+          waypoints: [],
+          paths: [],
+	  bounds: new google.maps.LatLngBounds()
+        };
+
+	var trip = toGeoJSON.gpx(gpx);
+	trip.features.forEach(function (feature) {
+	  console.log(feature.properties.desc);
+	  if(feature.geometry.type === "Point") {
+	    //convert point to coordinate and add to waypoints
+	    result.waypoints.push({
+	      latlng: { 
+		lat: feature.geometry.coordinates[1], 
+		lng: feature.geometry.coordinates[0]
+		      },
+	      sym: feature.properties.sym,
+	      desc: feature.properties.desc});
+	  } else if(feature.geometry.type === "LineString"){
+	    //we have a route
+	    var path = {
+	      bounds: new google.maps.LatLngBounds()
+	    };
+
+	    path.points = $.map(feature.geometry.coordinates, function(point) { 
+	      return { lat: point[1], lng: point[0] }; 
+	    }); 
+	    path.desc = feature.properties.desc;
+	    path.sym = feature.properties.sym;
+	    path.color = Colors.next();
+	    result.paths.push(path);
+	  }
+	});
+
+        deferred.resolve(result);
+      },
+      failure: function () {
+        return deferred.reject(null);
+      }
+    })
+    return deferred.promise();
+  };
+
+  var readGPXFileOld = function (url){
     var deferred = $.Deferred();
     $.ajax({
       type: 'GET',
@@ -142,7 +204,7 @@ var ks = (function (exports) {
         prop.busy = true;
         prop.index = index;
         prop.leg = prop.data[index];
-        var complete = prop.data.length > prop.index + 1;;
+        var complete = prop.data.length > prop.index + 1;
         prop.fetchPolyline(prop.leg.file).done(function(data){
           prop.mapData = data;
           prop.dispatchEvent('change', prop );

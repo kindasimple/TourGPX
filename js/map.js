@@ -14,24 +14,73 @@
       self.map = new google.maps.Map(document.getElementById(canvasId), mapOptions);
     };
 
+    var icons = {};
+    icons.Museum = {
+    path: 'm10.675444,0.384533c-3.733979,0 -6.768717,2.751125 -6.768717,6.141849c0,3.390855 6.768717,14.837624 6.768717,14.837624s6.768717,-11.446769 6.768717,-14.837624c0,-3.390724 -3.029093,-6.141849 -6.768717,-6.141849zm0,9.075467c-1.784435,0 -3.233011,-1.311882 -3.233011,-2.933618s1.448575,-2.936015 3.233011,-2.936015s3.233008,1.314415 3.233008,2.936015s-1.448573,2.933618 -3.233008,2.933618z',
+    fillColor: 'red',
+    fillOpacity: 1,
+    scale: 2,
+    strokeColor: 'black',
+    strokeWeight: 0.2,
+    anchor: new google.maps.Point(11,22)
+  };
+  icons.Waypoint =  {
+    path: 'm1.249999,11.124999c0,-5.317679 4.419199,-9.625 9.875001,-9.625c5.455801,0 9.875,4.307321 9.875,9.625c0,5.317679 -4.419199,9.625001 -9.875,9.625001c-5.455802,0 -9.875001,-4.307322 -9.875001,-9.625001z',
+    fillColor: 'red',
+    fillOpacity: 1,
+    strokeColor: 'black',
+    strokeWeight: .2,
+    anchor: new google.maps.Point(11,11),
+    scale: 1
+  };
+
+
     var addListener = function (trip, map, preload) {
       _trip.addEventListener("change", function(data) {
 
-        var route = new google.maps.Polyline({
-          path: data.mapData.points,
-          strokeColor: data.mapData.strokeColor,
-          strokeOpacity: 1.0,
-          strokeWeight: 2
-        });
-        if(_options.route) {
-          route.setMap(map);
-        }
+	data.mapData.waypoints.forEach(function(waypoint) {
+	  /*var image = {
+	    url: 'img/' + waypoint.sym + '.png',
+	    size: new google.maps.Size(20, 32),
+	    origin: new google.maps.Point(0,0),
+	    anchor: new google.maps.Point(0, 32)
+	  };*/
+	  var image;
+	  switch(waypoint.sym) {
+	    case 'Waypoint': { image = icons[waypoint.sym]; break; }
+	    case 'Museum': { image = icons[waypoint.sym]; break;}
+	    /*case 'Museum': {
+  image  =  break; }*/
+	    default: { image = 'large_red';}
+	  }
+	  new google.maps.Marker({
+	    map: map,
+	    icon: image,
+	    position: new google.maps.LatLng(waypoint.latlng.lat, waypoint.latlng.lng),
+	    title: waypoint.desc
+	  })
+	});
+	  
+	data.mapData.paths.forEach(function(route) {
+	  var line = new google.maps.Polyline({
+	    path: $.map(route.points, function(point){
+		    return new google.maps.LatLng(point.lat, point.lng );
+		  }),
+	    strokeColor: route.color,
+	    strokeOpacity: 1.0,
+	    strokeWeight: 2
+	  });
 
-        if(_options.bounds)
-          map.fitBounds(data.mapData.bounds);
+	  if(_options.route) {
+	    line.setMap(map);
+	  }
 
-        if(_options.center)
-          map.setCenter(data.mapData.bounds.getCenter());
+	  if(_options.bounds)
+	    map.fitBounds(data.mapData.bounds);
+
+	  if(_options.center)
+	    map.setCenter(data.mapData.bounds.getCenter());
+	});
       });
 
       if(preload){
