@@ -1,4 +1,4 @@
-(function(exports){
+var ks = (function(exports){
   exports.Photo = function (clientId, userId, photoCallback) {
 
     var Nearby = function(position, distance) {
@@ -42,5 +42,6 @@
     $.extend(this, ks.events);
     this.nearby = Nearby;
   };
+  return exports;
 
 }(ks || {}));
