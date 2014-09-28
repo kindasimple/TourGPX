@@ -3,15 +3,20 @@
     var getPosition = function (ctx) {
       navigator.geolocation.getCurrentPosition(function(position) {
         ctx.dispatchEvent('heartbeat', position);
-        setTimeout(getPosition, interval, ctx);
+        ctx._timeout = setTimeout(getPosition, interval, ctx);
       });
     }
 
 
     this.run = function(){
-      setTimeout(getPosition, interval, this);
+      this._timeout = setTimeout(getPosition, interval, this);
     };
 
+    this.pause = function () {
+      clearTimeout(this._timeout);
+    }
+
     $.extend(this, ks.events);
+    this.run();
   }
 }(ks || {}))
