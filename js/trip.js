@@ -200,7 +200,7 @@ var ks = (function (exports) {
 
 
       function getPolyline(file) {
-          return readGPXFile(ks.webRoot + '/' + file);
+          return readGPXFile(ks.webRoot + file);
       }
 
       prop.fetchPolyline = getPolyline.memoize();
