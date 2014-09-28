@@ -10,7 +10,9 @@
       #map-canvas { height: 100% }*/
       #map-canvas { height: 300px;}
       #map-canvasG { height: 200px; margin: 12px;}
-
+      #buttons > button {
+        margin-bottom: 4px;
+      }
       body {
         padding-top: 50px;
       }
@@ -19,20 +21,25 @@
         text-align: center;
       }
 
+
       #runlist { height: 300px; overflow: scroll;}
 
       #buttons {margin-bottom: 6px}
 
-      #images {height: 150px;}
+      #images {height: 150px; overflow-x: hidden;}
       #images img {margin-right: 5px;}
+      .scrollable {
+          max-height: 200px;
+          overflow-x: hidden;
+      }
     </style>
     <title>TransAmerican Bike Tour</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
 
-
+    </style>
   </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -48,9 +55,6 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -65,11 +69,29 @@
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div id="buttons" class="col-xs-2">
-          <button type="button" class="btn btn-primary btn-lg active" onclick='timer.start(5000);'>Start</button>
-          <button type="button" class="btn btn-primary btn-lg active" onclick='timer.stop();'>Stop</button>
+        <div id="buttons" class="col-xs-12">
+          <div id="runlist-phone" class="visible-xs-inline">
+            <button class="btn btn-default dropdown-toggle" type="button" id="button-runlist-phone" data-toggle="dropdown">
+              <span id="button-label-runlist-phone">Days</span>
+              <span class="caret"></span>
+            </button>
+            <ul id='menu-runlist-phone' class="dropdown-menu scrollable" role="menu" aria-labelledby="days-menu"></ul>
+          </div>
+
+          <button type="button" class="btn btn-primary btn-sm" onclick='timer.start(5000);'>
+            <span class="glyphicon glyphicon-play"></span>
+            <span class="hidden-xs">Start</span>
+          </button>
+
+          <button type="button" class="btn btn-primary btn-sm active" onclick='timer.stop();'>
+            <span class="glyphicon glyphicon-pause"></span>
+            <span class="hidden-xs">Stop</span>
+          </button>
+
         </div>
-        <div id="images" class="col-xs-10"></div>
+      </div>
+      <div class="row">
+        <div id="images" class="col-xs-12"></div>
       </div>
 
       <div class="row">
@@ -97,7 +119,7 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="application/javascript" src="js/events.js"></script>
-    <script type="application/javascript" src="lib/jquery.min.js"></script>
+    <script type="application/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="application/javascript" src="js/trip.js"></script>
     <script type="application/javascript" src="js/map.js"></script>
     <script type="application/javascript" src="js/timer.js"></script>
@@ -109,8 +131,12 @@
       trip.addEventListener("initialize", function(data){
         data.forEach(function(leg, index){
           $("#runlist").append($('<li class="list-group-item">' + leg.label + '</li>').data('file', leg.file).data('index', index));
+          $("#menu-runlist-phone").append($('<li>' + leg.label + '</li>').data('file', leg.file).data('index', index));
         })
         $("#runlist" + ">li").on('click', function (ev) {
+          trip.setActiveIndex($(ev.target).data('index'));
+        });
+        $("#menu-runlist-phone" + ">li").on('click', function (ev) {
           trip.setActiveIndex($(ev.target).data('index'));
         });
       });
@@ -123,7 +149,7 @@
         var scrollPosition = $("#runlist").scrollTop() + scrollAmount + selectedItem.height() - ($("#runlist").height() )/2;
 
         $('#runlist').scrollTop(scrollPosition);
-
+        $('#button-label-runlist-phone').text(data.leg.label);
       });
 
 
@@ -195,8 +221,6 @@
         });
 
         trip.initialize(/(\d_*)+/);
-
-
       };
 
       google.maps.event.addDomListener(window, 'load', initialize);
@@ -216,6 +240,6 @@
 
     </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="lib/bootstrap.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
