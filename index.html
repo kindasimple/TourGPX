@@ -56,6 +56,11 @@
 
     <div id="map-canvas"></div>
 
+    <a id="logo-aca" href="http://www.adventurecycling.org/cyclosource-store/route-maps/">
+      <img src="img/ACA_LogosStack.png" style="bottom: 20px; right: 10px; position: absolute;" class="hidden-xs" />
+      <img src="img/ACA_LogosStack_140x38.png" style="bottom: 20px; right: 10px; position: absolute;" class="visible-xs-inline" />
+    </a>
+
     <div class="modal fade" id="fileUp" tabindex="-1" role="dialog" tabindex="-1" aria-hidden="true" aria-labelledby="modalLabel">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -101,6 +106,8 @@
                       zoom: 16
                   })
                   .trip(trip, {bounds: true, center: true, preload: true})
+
+
                   trip.initialize(/TA(\d*)+Routes/);
               });
           } else {
@@ -122,7 +129,8 @@
                 .done(function(result){
                     window.map.load({mapData: result}, window.map.map);
                 });
-            $("#fileUp").modal('hide')
+            $("#fileUp").modal('hide');
+            $('#logo-aca').prop('hidden', true);
           };
 
           window.findme = function () {
