@@ -51,13 +51,13 @@ var ks = (function (exports) {
     }
     prop.data = [];
 
-    prop.initialize = function (regex) {
-      function getLabel(dateString) {
+    prop.initialize = function (regex, initialDate) {
+      function getDateFromLeg(dateString) {
         var year = dateString.substring(0,2);
         var month = dateString.substring(2,4);
         var day = dateString.substring(4,6);
-        var date = new Date("20"+year, month-1, day);
-        return date.toDateString();
+        var date = new Date(Date.UTC("20"+year, month-1, day));
+        return date;//.toDateString();
       }
       return $.ajax({
         type: 'GET',
@@ -65,10 +65,20 @@ var ks = (function (exports) {
         success: function (trip) {
           console.log("Trip loaded");
           prop.data = $.map(trip,function (leg){
-            return { file: leg, label: getLabel(leg.match(regex)[0]) };
+            var d = getDateFromLeg(leg.match(regex)[0]);
+            return { file: leg, label: d.toUTCString().split("2013").shift(), date: d };
           });
           prop.dispatchEvent('initialize', prop.data );
-          prop.setActiveIndex(0);
+
+          var startAtBeginning = true;
+          for(var legIndex=0; legIndex<prop.data.length; legIndex++) {
+            if(+prop.data[legIndex].date === +initialDate) {
+              prop.setActiveIndex(legIndex);
+              startAtBeginning = false;
+              break;
+            }
+          }
+          if(startAtBeginning) prop.setActiveIndex(0);
         },
         failure: function () {
           console.log('failed to get run list');

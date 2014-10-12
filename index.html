@@ -223,9 +223,19 @@
               });
           });
 
-          //kick off the trip
+          var getToday = function () {
+            var today = new Date()
+            return Date.UTC(2013, today.getUTCMonth(), today.getUTCDate())
+          }
 
-          trip.initialize(/(\d_*)+/);
+          //take date parameters
+          var initialDate = window.location.href.indexOf("#") !== -1
+                              ? new Date(window.location.href.split("#").pop())
+                              : getToday();
+
+
+          //kick off the trip
+          trip.initialize(/(\d_*)+/, initialDate);
       };
 
       //run setup when maps are loaded
