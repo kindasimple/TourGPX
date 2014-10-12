@@ -1,7 +1,7 @@
 html { height: 100% }
 body { height: 100%; margin: 0; padding: 0 }
-#map-canvas { height: 300px;}
-#map-canvasG { height: 200px; margin: 12px 0px; width: 100%;}
+#map-canvas { height: 300px; min-width: 300px}
+#map-canvasG { height: 200px; margin: 12px 0px; width: 100%; min-width: 300px}
 #buttons > button {
   margin-bottom: 4px;
 }
