@@ -136,6 +136,7 @@
 
         $('#runlist').scrollTop(scrollPosition);
         $('#button-label-runlist-phone').text(data.leg.label);
+        history.pushState({},data.leg.label,"/#2013-" + data.leg.date.getUTCMonth() + "-" + data.leg.date.getUTCDate())
       });
 
       // set things up after the map is nitialized
