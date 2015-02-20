@@ -137,7 +137,7 @@
 
         $('#runlist').scrollTop(scrollPosition);
         $('#button-label-runlist-phone').text(data.leg.label);
-        history.pushState({},data.leg.label,"/#2013-" + data.leg.date.getUTCMonth() + "-" + data.leg.date.getUTCDate())
+        history.pushState({},data.leg.label,"#2013-" + data.leg.date.getUTCMonth() + "-" + data.leg.date.getUTCDate())
       });
 
       // set things up after the map is nitialized
@@ -181,7 +181,7 @@
             var getArea = function(leg){
                 var center = leg.mapData.bounds.getCenter();
                 return {
-                    position: { lon: center.B, lat: center.k},
+                    position: { lon: center.D, lat: center.k},
                     distance: .5 //miles
                 };
             };
