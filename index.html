@@ -137,7 +137,7 @@
 
         $('#runlist').scrollTop(scrollPosition);
         $('#button-label-runlist-phone').text(data.leg.label);
-        history.pushState({},data.leg.label,"#2013-" + data.leg.date.getUTCMonth() + "-" + data.leg.date.getUTCDate())
+        history.replaceState({},data.leg.label,"#2013-" + (data.leg.date.getUTCMonth()+1) + "-" + data.leg.date.getUTCDate())
       });
 
       // set things up after the map is nitialized
@@ -215,8 +215,8 @@
                       $('<img>')
                       .attr({
                           src: result.images.thumbnail.url,
-                          width: result.images.thumbnail.width,
-                          height: result.images.thumbnail.height
+                          //width: result.images.thumbnail.width,
+                          //height: result.images.thumbnail.height
                       })
                       .data('id', result.id)
                       .addClass("image instagram-image")

@@ -60,8 +60,8 @@ google.maps.event.addListener(marker, 'mouseover', function (event) {
   $('#images > img').each(function () {
     if($(this).data('id') === image.id) {
       $(this).animate({
-                      height: 175,
-                      width: 175
+                      height: 150,
+                      width: 150
                   });
     }
   });
@@ -71,8 +71,8 @@ google.maps.event.addListener(marker, 'mouseout', function (event) {
   $('#images > img').each(function () {
     if($(this).data('id') === image.id) {
       $(this).animate({
-                      height: 150,
-                      width: 150
+                      height: 120,
+                      width: 120
                   });
     }
   });

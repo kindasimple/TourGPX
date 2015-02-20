@@ -56,7 +56,7 @@ var ks = (function (exports) {
         var year = dateString.substring(0,2);
         var month = dateString.substring(2,4);
         var day = dateString.substring(4,6);
-        var date = new Date(Date.UTC("20"+year, month-1, day));
+        var date = new Date("20"+year, month-1, day);
         return date;//.toDateString();
       }
       return $.ajax({
