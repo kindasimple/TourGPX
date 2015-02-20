@@ -212,15 +212,16 @@
                       return !matches || matches.length <= 0;
                   })
                   .forEach(function (result) {
-                      $('<img>')
-                      .attr({
-                          src: result.images.thumbnail.url,
-                          //width: result.images.thumbnail.width,
-                          //height: result.images.thumbnail.height
-                      })
-                      .data('id', result.id)
-                      .addClass("image instagram-image")
-                      .prependTo($('#images'));
+                      var $img = $('<img>')
+                                  .attr({
+                                      src: result.images.thumbnail.url,
+                                      //width: result.images.thumbnail.width,
+                                      //height: result.images.thumbnail.height
+                                  })
+                                  .data('id', result.id)
+                                  .addClass("image instagram-image");
+                      var $imgLayer = $("<span>").addClass("animated").append($img)
+                      $imgLayer.prependTo($('#images'))
                   });
               });
           });
