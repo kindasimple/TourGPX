@@ -185,13 +185,30 @@
                     distance: .5 //miles
                 };
             };
-            var area = getArea(data);
+	    var area = getArea(data);
+
+function whichTransitionEvent(){
+    var t;
+    var el = document.createElement('fakeelement');
+    var transitions = {
+      'transition':'transitionend',
+      'OTransition':'oTransitionEnd',
+      'MozTransition':'transitionend',
+      'WebkitTransition':'webkitTransitionEnd'
+    }
+
+    for(t in transitions){
+        if( el.style[t] !== undefined ){
+            return transitions[t];
+        }
+    }
+}
             instagram.nearby(area.position, area.distance).done(function(results) {
 
                 //merge result sets
 
                   //remove items not in set
-                  $('#images').children('img').filter(function(){
+		$('#images').children('span').filter(function(){
                       var id = $(this).data("id");
                       var matches = $.grep(results, function(result) {
                                         return (result.id === id)
@@ -199,14 +216,14 @@
 
                       return !matches || matches.length <= 0;
                   })
-            	    .removeClass("instagram-image")
-            	    .addClass("instagram-image-deleted")
-            	    .each(function (image) {
-            	       setTimeout(function(element) { element.remove();}, 1000, this);
-            	    });
+		.removeClass("instagram-image")
+		.addClass("instagram-image-deleted")
+		.one("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd", function () { 
+		      $(this).remove() 
+		  })
 
                   $.grep(results, function(result){
-                      var matches = $.grep($('#images').children("img"), function(image) {
+                      var matches = $.grep($('#images').children("span"), function(image) {
                                         return $(image).data('id') === result.id;
                                     });
                       return !matches || matches.length <= 0;
@@ -218,9 +235,9 @@
                                       //width: result.images.thumbnail.width,
                                       //height: result.images.thumbnail.height
                                   })
-                                  .data('id', result.id)
                                   .addClass("image instagram-image");
-                      var $imgLayer = $("<span>").addClass("animated").append($img)
+                                  
+                      var $imgLayer = $("<span>").addClass("animated").data('id', result.id).append($img)
                       $imgLayer.prependTo($('#images'))
                   });
               });
