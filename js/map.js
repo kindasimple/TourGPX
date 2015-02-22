@@ -65,9 +65,9 @@
         });
 
         google.maps.event.addListener(marker, 'mouseout', function (event) {
-          $('#images > span > img').each(function () {
+          $('#images > span').each(function () {
             if($(this).data('id') === image.id) {
-              this.parentNode.classList.remove("bounce");
+              this.classList.remove("bounce");
             }
           });
         });
