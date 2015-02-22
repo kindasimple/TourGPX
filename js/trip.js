@@ -49,6 +49,36 @@ var ks = (function (exports) {
       })
       return deferred.promise();
     }
+    function getPolylineJson(file) {
+      var deferred = $.Deferred();
+      $.ajax({
+        type: 'GET',
+        url: ks.webRoot + '/' + file,
+        success: function(gpx) {
+          console.log("load new run");
+          var result = { bounds : new google.maps.LatLngBounds(), points: [] };
+          result.points = gpx.map(function (p, i) { 
+				var point = new google.maps.LatLng(p.lat, p.lon)
+				if(i%2===0)
+				  result.bounds.extend(point);
+                                return point;
+                              });
+
+          result.route = new google.maps.Polyline({
+            path: result.points,
+            strokeColor: '#FF0000',
+            strokeOpacity: 1.0,
+            strokeWeight: 2
+          });
+
+          deferred.resolve(result);
+        },
+        failure: function () {
+          return deferred.reject(null);
+        }
+      })
+      return deferred.promise();
+    }
     prop.data = [];
 
     prop.initialize = function (regex, initialDate) {
@@ -86,7 +116,7 @@ var ks = (function (exports) {
       });
     }
 
-    prop.fetchPolyline = getPolyline.memoize();
+    prop.fetchPolyline = getPolylineJson.memoize();
 
     prop.setActiveIndex = function (index) {
       if(index === prop.index)
