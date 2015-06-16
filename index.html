@@ -179,9 +179,10 @@
 
         trip.addEventListener("change", function (data) {
             var getArea = function(leg){
-                var center = leg.mapData.bounds.getCenter();
-                return {
-                    position: { lon: center.D, lat: center.k},
+	    var center = leg.mapData.bounds.getCenter();
+	    var ps = Object.keys(center)
+		return {
+                    position: { lon: ps[0]<0 ? center[ps[0]] : center[ps[1]], lat: ps[0]<0 ? center[ps[1]] : center[ps[0]]},
                     distance: .5 //miles
                 };
             };
