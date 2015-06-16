@@ -56,27 +56,21 @@
             map: self.map
         });
 
-google.maps.event.addListener(marker, 'mouseover', function (event) {
-  $('#images > img').each(function () {
-    if($(this).data('id') === image.id) {
-      $(this).animate({
-                      height: 175,
-                      width: 175
-                  });
-    }
-  });
-});
+        google.maps.event.addListener(marker, 'mouseover', function (event) {
+          $('#images > span').each(function () {
+            if($(this).data('id') === image.id) {
+              this.classList.add("bounce");
+            }
+          });
+        });
 
-google.maps.event.addListener(marker, 'mouseout', function (event) {
-  $('#images > img').each(function () {
-    if($(this).data('id') === image.id) {
-      $(this).animate({
-                      height: 150,
-                      width: 150
-                  });
-    }
-  });
-});
+        google.maps.event.addListener(marker, 'mouseout', function (event) {
+          $('#images > span').each(function () {
+            if($(this).data('id') === image.id) {
+              this.classList.remove("bounce");
+            }
+          });
+        });
       });
     };
 

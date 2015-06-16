@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href="bower_components/lightbox/css/lightbox.css" rel="stylesheet" />
     <style>
       #images img { margin: 5px;}
       body {
@@ -54,6 +55,7 @@
     <script type="application/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="application/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="application/javascript" src="js/instagram.js"></script>
+    <script src="bower_components/lightbox/js/lightbox.min.js"></script>
     <script>
     //set webroot
 
@@ -64,15 +66,25 @@
         instagram.nearby({lat: "40", lon: "-100"}, 1000).done(function(results) {
             //merge result sets
             results.forEach(function (result) {
-                $('<img>')
+	      var image = $('<img>')
                 .attr({
                     src: result.images.thumbnail.url,
                     width: result.images.thumbnail.width,
                     height: result.images.thumbnail.height
                 })
                 .data('id', result.id)
-                .addClass("image instagram-image")
-                .prependTo($('#images'));
+		.addClass("image instagram-image")
+
+		var link = $('<a>')
+		  .attr({
+		    href: result.images.standard_resolution.url,
+		    'data-lightbox': 'transam',
+		  })
+		if(result.caption)
+		  link.attr('data-title', result.caption.text)
+
+	        link.append(image)
+                link.prependTo($('#images'));
             });
         });
 
